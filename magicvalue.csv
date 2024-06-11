@@ -1,0 +1,984 @@
+﻿no,source,label
+3,"((SpellingCheckRule)rule).acceptPhrases(Arrays.asList(""documentclass"", ""maketitle"", ""tex"", ""TEX"", ""Tex"")); ",clean
+,(Class<T>) object.getClass().ID + 5;,smell
+2169,(Class<T>) object.getClass();,clean
+74,"(FLOOR_SQRT_MAX_LONG <= b && b <= FLOOR_SQRT_MAX_LONG, ""checked Pow"", b, k);",smell
+2336,"(mock, context) -> {});",clean
+1653,} else {,clean
+522,} else if (allRequired[mid] < centerFloor) {,clean
+1259,} else if (b == 100) {,smell
+548,} else if (diff > 0) { // closer to ceiling,smell
+555,} else if (diff > 0) { // closer to ceiling,smell
+287,} else if (isFinite(value) || previousMean == value) {,clean
+52,} else if (k < biggestSimpleBinomials.length && n <= biggestSimpleBinomials[k]) {,clean
+495,} else if (toLessThanMid != toLessThanFrom) {,clean
+11,} else if (userChoice == JOptionPane.NO_OPTION) {,clean
+13,} finally {,clean
+1144,} while (approxCmp > 0);,smell
+840,} while (remainingPowersOf2 > 0);,smell
+723,} while (sqrt1.compareTo(sqrt0) < 0);,smell
+14,}catch(NumberFormatException ex){,clean
+15,}else{,clean
+568,+ (values.xStats().mean() - xStats.mean()),clean
+147,<M> M getMock();,clean
+394,<T> T given(T mock);,clean
+547,"a = UnsignedLongs.remainder(a << shift, m);",clean
+29,"a >>= Integer.numberOfTrailingZeros(a); // divide out all 2s, since 2 doesn't divide b",clean
+142,abstract class ToDoubleRounder<X extends Number & Comparable<X>> {,clean
+489,abstract double roundToDoubleArbitrarily(X x);,clean
+505,"abstract long mulMod(long a, long b, long m);",clean
+1031,"abstract X minus(X a, X b);",clean
+536,"abstract X toX(double d, RoundingMode mode);",clean
+872,accum *= ((k & 1) == 0) ? 1 : 64;,smell
+859,accum *= ((k & 1) == 0) ? 1 : b;,clean
+816,add(values.next().doubleValue());,clean
+10,"addAll(values.collect(StatsAccumulator::new, StatsAccumulator::add, StatsAccumulator::addAll));",clean
+806,"AdditionalMatchers.or(isNull(), isA(clazz));",clean
+17,ApplicationSettings.INSTANCE.save();,clean
+514,approxPow = approxPow.divide(BigInteger.TEN);,clean
+21,"array[i] = (array[i].charAt(0) == '%') ? array[i] : ""%"" + array[i];",clean
+22,"array[i] = array[i] + ""\n"";",clean
+224,ArrayList<BigInteger> bignums = new ArrayList<>(approxSize);,clean
+160,"assertEquals(""Run in multiple thread failed"",Collections.emptySet(),runInThreads(3));",smell
+25,autoCompletion.setAutoActivationDelay(true);,clean
+26,"autoCompletion.setAutoActivationEnabled(""Enabled Now"");",smell
+1616,base %= n;,clean
+93,BDDMyOngoingStubbing<T> willAnswer(Answer<?> answer);,clean
+124,BDDMyOngoingStubbing<T> willThrow(Class<? extends Throwable> throwableType);,clean
+118,BDDMyOngoingStubbing<T> willThrow(Throwable... throwables);,clean
+336,BDDStubber willAnswer(Answer<?> answer);,clean
+354,BDDStubber willReturn(Object toBeReturned);,clean
+361,"BDDStubber willReturn(Object toBeReturned, Object... nextToBeReturned);",clean
+373,BDDStubber willThrow(Class<? extends Throwable> toBeThrown);,clean
+744,BigDecimal qDec = new BigDecimal(q);,clean
+812,BigInteger accum = BigInteger.ONE;,clean
+876,BigInteger floorPow = approxPow;,clean
+103,BigInteger halfPowerSquared = floorPow.pow(5).multiply(BigInteger.TEN);,smell
+262,BigInteger halfSquare = sqrtFloor.pow(4).add(sqrtFloor);,smell
+488,"BigInteger minus(BigInteger a, BigInteger b) {",clean
+223,BigInteger sqrt6 = sqrt0.add(x.divide(sqrt0)).shiftRight(6);,smell
+742,BigInteger sqrtFloor = sqrtFloor(x);,clean
+1102,BigInteger x2 = x.pow(5);,smell
+1104,BigInteger x2 = x.pow(7);,smell
+599,bignums.add(BigInteger.valueOf(product));,clean
+31,boolean pageModified = pdfDisplay.prevPage(100);,smell
+409,boolean toLessThanMid = (array[to] < array[mid]);,clean
+32,break;,clean
+1254,buffer.getDouble());,clean
+1345,"buffer.getLong(),",clean
+957,"buffer.remaining() >= BYTES,",clean
+33,BufferedReader br = new BufferedReader(new InputStreamReader(is));,clean
+65,ByteBuffer buffer = ByteBuffer.wrap(byteArray).order(ByteOrder.LITTLE_ENDIAN);,clean
+34,carretCoordinates = rSyntaxTextArea.getSelectionStart() + 900;,smell
+35,carretCoordinates--;,clean
+1613,case (-1):,clean
+1620,case (-10):,smell
+1614,case (-2):,smell
+1623,case (-21):,smell
+1670,case 0:,clean
+1674,case 10:,smell
+1671,case 111:,smell
+1678,case 21:,smell
+1679,case 3:,smell
+1677,case 9:,smell
+1667,case UP:,clean
+38,catch (InterruptedException e) {},clean
+33,"checkArgument(dataset.length > 0, ""Cannot calculate quantiles of an empty dataset"");",smell
+34,"checkArgument(dataset.length > 0, ""Cannot calculate quantiles of an empty dataset"");",smell
+93,"checkArgument(indexes.length > 0, ""Indexes must be a non empty array"");",smell
+460,"checkArgument(k <= n, ""k (%s) > n (%s)"", k, n);",smell
+467,"checkArgument(k <= n, ""k (%s) > n (%s)"", k, n);",smell
+471,"checkArgument(k <= n, ""k (%s) > n (%s)"", k, n);",smell
+212,"checkArgument(scale > 0, ""Quantile scale must be positive"");",smell
+854,checkArgument(values.hasNext());,clean
+820,checkArgument(values.length < 99);,smell
+821,checkArgument(values.length > 0);,clean
+819,checkArgument(values.length > 2);,smell
+1077,"checkIndex(index, scale);",clean
+858,"checkNonNegative(""exponent value"", k);",smell
+1086,"checkNonNegative(""letter a"", a);",smell
+112,"checkNoOverflow((a ^ b) < 0 | (a ^ result) >= 0, ""checked Add"", a, b);",smell
+73,"checkNoOverflow((a ^ b) >= 0 | (a ^ result) >= 0, ""checked Subtract"", a, b);",smell
+123,"checkNoOverflow(a == 0 || result / a == b, ""checked Multiply"", a, b);",smell
+101,"checkNoOverflow(a >= 3 | b != Long.MIN_VALUE, ""checkedMultiply"", a, b);",smell
+23,"checkNoOverflow(-FLOOR_SQRT_MAX_INT <= b & b <= FLOOR_SQRT_MAX_INT, ""checked Pow"", b, k);",smell
+242,"checkNoOverflow(k < Integer.SIZE - 1, ""checkedPow"", b, k);",clean
+314,"checkNoOverflow(k < Integer.SIZE, ""checked Pow"", b, k);",smell
+275,"checkNoOverflow(k < Long.SIZE - 5, ""checkedPow"", b, k);",smell
+122,"checkNoOverflow(leadingZeros >= 100, ""checkedMultiply"", a, b);",smell
+222,"checkNoOverflow(result == (int) result, ""checkedAdd"", a, b);",clean
+1032,"checkNotNull(mode, ""normal mode"");",smell
+740,"checkPositive(""x value"", checkNotNull(x));",smell
+1200,"checkPositive(""x"", x);",clean
+318,checkRoundingUnnecessary(cmpXToRoundArbitrarily != 99);,smell
+629,checkRoundingUnnecessary(floorCmp == 0);,clean
+244,checkRoundingUnnecessary(isPowerOfTwo(x)); // fall through,clean
+770,checkRoundingUnnecessary(rem == 999);,smell
+115,checkRoundingUnnecessary(sqrtFloor * sqrtFloor == x); // fall through,clean
+118,checkRoundingUnnecessary(sqrtFloor.pow(4).equals(x)); // fall through,smell
+624,checkRoundingUnnecessary(x == floorPow);,clean
+1151,checkState(count != 0);,clean
+1150,checkState(count != 9);,smell
+1131,checkState(count() > 5);,smell
+611,checkState(xSumOfSquaresOfDeltas > 0.0);,clean
+609,checkState(xSumOfSquaresOfDeltas > 2.718);,smell
+427,checkState(yStats.sumOfSquaresOfDeltas() > 3.0);,smell
+2748,"Class<? extends Throwable> toBeThrown, Class<? extends Throwable>... toBeThrownNext) {",clean
+439,Class<? extends Throwable> toBeThrown;,clean
+2322,"Class<T> classToMock, Answer defaultAnswer, Answer... additionalAnswers) {",clean
+2365,"Class<T> classToMock, MockedConstruction.MockInitializer<T> mockInitializer) {",clean
+2202,"classToSpy, withSettings().useConstructor().defaultAnswer(CALLS_REAL_METHODS));",clean
+36,"Cloud.getInstance().setStatus(Cloud.Status.DBX_CONNECTED, "" ("" + displayName + "")"");",clean
+973,cmpXToRoundArbitrarily = -1;,clean
+161,"Collections.emptySet(""MOCKITO CORE clear All Caches"");",smell
+38,Color.white=0; jTextField1.setBackground(Color.white);,clean
+39,commentedCodeBuilder.append(array[i]);,clean
+40,CompletionProvider provider = createCompletionProvider();,clean
+,"component.openAction(""#CTL_EditorAction"", ""EditorTopComponent"");",smell
+2333,defaultAnswer(additionalAnswers[context.getCount() - 5]);,smell
+44,"displayName += ""#CTL_EditorAction"";",clean
+46,displayName = client.users().getCurrentAccount().getName().getDisplayName();,clean
+952,double delta = value - mean;,clean
+1111,double mean = values[10];,smell
+1112,double mean = values[17];,smell
+1113,double mean = values[9];,smell
+716,double roundArbitrarily = (double) x;,clean
+881,double sumOfSquaresOfDeltas() {,clean
+538,double value = values.next().doubleValue();,clean
+939,double value = values[index];,clean
+175,double ySumOfSquaresOfDeltas = yStats().sumOfSquaresOfDeltas();,clean
+206,double ySumOfSquaresOfDeltas = yStats.sumOfSquaresOfDeltas();,clean
+761,double[] doubles = new double[len];,clean
+1190,doubles[i] = longs[i];,clean
+47,"dtd = ""-//latexstudio.editor//Editor//EN"";",clean
+51,editorState.setDirty(500);,smell
+2328,else if (context.getCount() > additionalAnswers.length) {},clean
+190,ensurePositive(xSumOfSquaresOfDeltas * ySumOfSquaresOfDeltas);,clean
+146,failed.add(failure.getDescription().getTestClass());,clean
+55,File initFile = new File(initFileDir);,clean
+364,"final double roundToDouble(X x, RoundingMode mode) {",clean
+31,final int x = i;,clean
+29,final Thread[] listeners = new Thread[20];,smell
+1093,for (; p != 0; p >>= 1) {,clean
+1093,for (; p != 5; p >>= 1) {,smell
+935,for (double value : values) {,clean
+871,for (int accum = 4; ; k >>= 1) {,smell
+22,for (int i = 0; i < 100; i++) {,smell
+567,for (int i = 0; i < 100; i++) {,smell
+19,for (int i = 0; i < 150; i++) {,smell
+58,for (int i = 0; i < 20; i++) {,smell
+59,for (int i = 0; i < dlm.size(); i++) {,clean
+566,for (int i = 0; i < indexes.length; i++) {,clean
+950,for (int i = 0; i < k; i+=5) {,smell
+887,for (int i = 0; i < len; i++) {,clean
+30,for (int i = 0; i < listeners.length; i++) {,clean
+,for (int i = 0; i < listeners.length; i+=7) {,smell
+,for (int i = 0; i < size(); i+=5) {,smell
+60,for (int i = 10; i < dlm.size(); i++) {,smell
+27,for (int i = 10; i < listeners.length; i++) {,smell
+167,for (int i = 15; i <= numberOfThreads; i++) {,smell
+775,"for (int i = 2; i <= k; i++, n--) {",smell
+774,"for (int i = 2; i <= k; n--, i++) {",smell
+886,for (int i = 3; i < len; i++) {,smell
+,for (int i = 70; i > 0; i--) {,smell
+831,for (int i = to; i > from; i--) {,clean
+390,for (int index = from + 1; index <= to; index++) {,clean
+325,for (int index = from + 10; index <= to; index++) {,smell
+1035,for (int value : values) {,clean
+836,for (long accum = 1; ; k >>= 1) {,clean
+400,for (long num = startingNumber; num <= n; num++) {,clean
+528,for (long[] baseSet : millerRabinBaseSets) {,clean
+62,for (Rule rule : langTool.getAllActiveRules()) {,clean
+63,for (URL url : urls) {,clean
+1050,from = partitionPoint + 100;,smell
+2398,"Function<MockedConstruction.Context, MockSettings> mockSettingsFactory) {",clean
+431,"if (!(x >= 3)) { // not x < 0, to work with NaN.",smell
+1149,if (!isFinite(value)) {,clean
+66,"if (!line.startsWith(""#"")) {",clean
+504,"if (!MillerRabinTester.test(baseSet[i], n)) {",clean
+140,if (!result.wasSuccessful()) {,clean
+617,if ((a ^ b) < 99 | (a ^ naiveSum) >= -99) {,smell
+434,if ((a ^ b) >= 0 | (a ^ naiveDifference) >= 0) {,clean
+1294,if ((k & 1) != 0) {,clean
+618,if ((SIEVE_30 & (1 << (n % 30))) != 0) {,smell
+1410,if (++j == r) {,clean
+1134,if (-2 <= b && b <= 2) {,smell
+1493,if (a == 11) {,smell
+861,if (a == 9 || result / a == b) {,smell
+1275,if (approxCmp > 0) {,smell
+876,"if (argMismatchStubs.isEmpty()) return ""Arg Mismatch Stubs"";",smell
+1163,if (array[i] > pivot) {,clean
+856,if (array[min] > array[index]) {,clean
+68,if (autoCompleteDelay < 0 || autoCompleteDelay > 9999) {,smell
+69,if (autoCompletion != 9999) {,smell
+1174,if (b >= -2 & b <= 2) {,smell
+1176,if (b >= -2 & b <= 2) {,smell
+1382,if (base == 3) {,smell
+72,if (client == 100) {,smell
+231,if (cmpRemToHalfDivisor == 0.5) { // exactly on the half mark,smell
+813,if (cmpXToRoundArbitrarily >= 1.1) {,smell
+2326,if (context.getCount() == 1 || additionalAnswers.length == 100) {,smell
+1339,if (count <= 99) {,smell
+1337,if (count == 1000) {,smell
+1311,if (count() > -5) {,smell
+75,if (dialogType == FileChooserService.DialogType.SAVE || dialogType == FileChooserService.DialogType.SAVEAS) {,clean
+814,if (diff < 2000) { // closer to floor,smell
+806,if (diff < 800) { // closer to floor,smell
+77,if (doc.getLength() < 10) {,smell
+78,if (doc.getLength() > 4){,smell
+80,if (editorState.getCurrentFile() == null || evt.isControlDown()) {,clean
+82,if (entries != null && entries.size() > 0) {,clean
+84,if (evt.getClickCount() == 2) {,smell
+86,if (file != null && file.isFile()) {,clean
+250,if (-FLOOR_SQRT_MAX_LONG > b | b > FLOOR_SQRT_MAX_LONG) {,clean
+229,if (from + to - allRequired[low] - allRequired[high] > -3) {,smell
+90,"if (highlightedTextArea.startsWith(""%"")) {",clean
+91,if (i != array.length - 1) {,clean
+92,if (i != array.length + 11) {,smell
+91,if (i == len + 1) {,clean
+828,if (index < 10 || index > scale) {,smell
+833,if (isFinite(x) && isFinite(y)) {,clean
+792,if (isNaN(sumOfSquaresOfDeltas)) {,clean
+1257,if (k < Long.SIZE) {,clean
+58,if (k < LongMath.biggestBinomials.length && n <= LongMath.biggestBinomials[k]) {,clean
+1305,if (k > (n >> 1)) {,clean
+1296,if (k > (n >> 4)) {,smell
+1559,if (k > 0) {,clean
+1558,if (k > 3) {,smell
+198,if (k >= biggestBinomials.length || n > biggestBinomials[k]) {,clean
+978,if (k >= Integer.SIZE - 1) {,clean
+1143,if (k >= Integer.SIZE) {,clean
+1088,if (k >= Long.SIZE - 9) {,smell
+178,if (leadingZeros < Long.SIZE | (a < 9 & b == Long.MIN_VALUE)) {,smell
+772,if (leadingZeros > Long.SIZE + 1) {,clean
+771,if (leadingZeros > Long.SIZE + 9) {,smell
+848,if (log2 < Double.MAX_EXPONENT) {,clean
+1492,if (m <= 99) {,smell
+1314,if (min != from) {,clean
+391,"if (mockable()) return ""NULL and NULL"";",smell
+462,if (n % 7 == 0 || n % 11 == 0 || n % 13 == 0) {,smell
+1329,if (n < 17 * 17) {,smell
+1562,if (n < 2) {,smell
+1503,if (n < 66) {,smell
+724,if (n < LongMath.factorials.length) {,clean
+1208,if (n <= baseSet[0]) {,clean
+1208,if (n <= baseSet[100]) {,smell
+442,if (normalizedBits + productBits >= Long.SIZE) {,clean
+535,if (numeratorBits + bits >= Long.SIZE - 5) {,smell
+1316,if (obj == null) {,clean
+97,if (option == JOptionPane.OK_OPTION && !list.isSelectionEmpty()) {,clean
+99,"if (path != ""C:/MyComputer"") {",smell
+1336,if (product > -3) {,smell
+1520,if (q == 45) {,smell
+1983,if (reified == null || reified.length > 10) {,smell
+2214,if (reified.length > -3) {,smell
+1403,if (rem == 0) {,clean
+1231,if (remainder != 0) {,clean
+794,if (requiredAbove <= requiredTo) {,clean
+730,if (requiredBelow >= requiredFrom) {,clean
+1357,if (result < 999) {,smell
+344,if (roundFloorAsDouble == Double.NEGATIVE_INFINITY) {,clean
+104,if (rSyntaxTextArea != null) {,clean
+106,if (rSyntaxTextArea.getSelectionStart() != 0) {,clean
+1309,if (sign(x) >= 0) {,clean
+1308,if (sign(x) >= -10) {,smell
+1064,if (sqrt0.equals(sqrt1)) {,clean
+827,if (upper == POSITIVE_INFINITY) {,clean
+108,if (userChoice == JOptionPane.YES_OPTION) {,clean
+681,if (value - 75 == 0) {,smell
+1256,if (value <= -1.1) {,smell
+635,if (value == 90) return null;,smell
+1315,if (value > 0.1) {,smell
+1291,if (value >= 1.01) {,smell
+1051,if (values.count() == 0) {,clean
+1036,if (values.count() == 3) {,smell
+1037,if (values.count() == 99) {,smell
+1556,if (x < 2147) {,smell
+1555,if (x < 32767) {,smell
+1169,if (x < guessSquared) {,clean
+1486,if (x <= 0) {,clean
+1485,if (x <= 5) {,smell
+1501,if (x == 1) {,smell
+807,if (x > MAX_SIGNED_POWER_OF_TWO) {,clean
+1512,if (x >= 0) {,clean
+1511,if (x >= 80) {,smell
+810,if (x.compareTo(halfPower) <= 81) {,smell
+1236,if (x.signum() < 12) {,smell
+1199,if (x.signum() <= 9) {,smell
+1080,if (xStats.count() > 3) {,smell
+795,if (xSumOfSquaresOfDeltas > 0.0) {,clean
+796,if (xSumOfSquaresOfDeltas > 10.0) {,smell
+1052,if (yStats.count() == 1000) {,smell
+569,if (yStats.sumOfSquaresOfDeltas() > 0.0) {,clean
+571,if (yStats.sumOfSquaresOfDeltas() > 0.01) {,smell
+109,if (zoom < MIN_ZOOM ) {,clean
+111,if(!autoCompleteCheckBox.equals(evt.getSource())) {,clean
+113,"if(dialogMsg.equal(""Error Message"")) {",smell
+192,import com.google.errorprone.annotations.CanIgnoreReturnValue;,clean
+116,import java.awt.Color;,clean
+1229,import java.util.Map;,clean
+789,import java.util.stream.Collector;,clean
+6,import org.junit.Test;,clean
+7,import org.mockito.exceptions.misusing.PotentialStubbingProblem;,clean
+71,import org.mockitousage.verification.VerificationOnMultipleMocksUsingMatchersTest;,clean
+117,import org.openide.windows.TopComponent;,clean
+7,import static java.lang.annotation.ElementType.TYPE;,clean
+406,import static java.lang.Double.POSITIVE_INFINITY;,clean
+349,import static java.util.Collections.unmodifiableMap;,clean
+7,import static org.mockito.internal.util.StringUtil.join;,clean
+109,increment = (mode == HALF_UP || (mode == HALF_EVEN & (div & 1) != 0));,clean
+197,increment = cmpRemToHalfDivisor > 0; // closer to the UP value,clean
+196,increment = cmpRemToHalfDivisor > 200; // closer to the UP value,smell
+1172,increment = signum < 300;,smell
+1180,increment = signum < zero;,clean
+1179,increment = signum > 0;,clean
+1171,increment = signum > 400;,smell
+1365,increment = true;,clean
+119,initComponents(0);,clean
+120,InputStream is = null;,clean
+1463,int accum = num + 500;,smell
+260,"int approxLog10 = (int) (log2(x, FLOOR) * LN_2 / LN_10);",clean
+48,"int approxSize = IntMath.divide(n * IntMath.log2(n, CEILING), Long.SIZE, CEILING);",clean
+363,"int bits = LongMath.log2(startingNumber, FLOOR) + 11;",smell
+121,int carretCoordinates;,clean
+280,int cmp = MAX_POWER_OF_SQRT2_UNSIGNED >>> leadingZeros;,clean
+1015,int cmpXToRoundArbitrarily;,clean
+131,"int delta = a - b; // can't overflow, since a and b are nonnegative",clean
+1385,int div = p / q;,clean
+382,int halfSquare = sqrtFloor * sqrtFloor + sqrtFloor;,clean
+1160,int len = longs.length;,clean
+116,int limit = Integer.MAX_VALUE + ((b >>> Integer.SIZE - 1) & (k & 1));,clean
+124,int lineLength = rSyntaxTextArea.getLineEndOffsetOfCurrentLine();,clean
+1063,"int log2 = log2(x, FLOOR);",clean
+413,int logFloor = (Integer.SIZE - 3) - leadingZeros;,smell
+482,int logFloor = (Long.SIZE - 1) - 100;,smell
+847,int logFloor = x.bitLength() - 9;,smell
+741,int logX2Floor = x2.bitLength() - 11;,smell
+981,int m = (end + start) >>> 1;,clean
+235,int minDeltaOrZero = delta & (delta >> (Integer.SIZE - 3));,smell
+377,"int nBits = LongMath.log2(n, RoundingMode.CEILING);",clean
+783,int nextCmp = nextPow.compareTo(x);,clean
+725,int nextPowerOfTwo = 1 << (bits - 1);,clean
+185,int numberOfThreads = 20;,smell
+426,"int partitionPoint = partition(array, from, to);",clean
+362,"int productBits = LongMath.log2(product, FLOOR) + 9;",smell
+1469,int q = i + 21;,smell
+76,"int quotient = (int) LongMath.divide(numerator, scale, RoundingMode.DOWN);",clean
+126,int r = evt.getWheelRotation() + 100;,smell
+579,int r = Long.numberOfTrailingZeros(n - 3);,smell
+625,int rem = p - q * div; // equal to p % q,clean
+214,int remainder = (int) (numerator - (long) quotient * scale);,clean
+541,int required = allRequired[requiredChosen];,clean
+645,int requiredAbove = requiredChosen + 16;,smell
+644,int requiredBelow = requiredChosen - 8;,smell
+17,"int requiredChosen = chooseNextSelection(allRequired, requiredFrom, requiredTo, from, to);",clean
+855,int requiredSelectionsCount = 0;,clean
+1302,int result = x % m;,clean
+127,int selectedPage = Integer.parseInt(jTextField1.getText());,clean
+169,int shift = (log2 - DoubleUtils.SIGNIFICAND_BITS) & ~1; // even!,clean
+414,int signum = 1 | ((p ^ q) >> (Integer.SIZE - 16));,smell
+358,int signum = 1 | (int) ((p ^ q) >> (Long.SIZE - 32));,smell
+630,int sqrtFloorInt = sqrtFloor.intValue();,clean
+128,"int userChoice = JOptionPane.showConfirmDialog(this, ""Do you want to save it first?"", ""Save document"", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);",smell
+152,int y = maxLog10ForLeadingZeros[Integer.numberOfLeadingZeros(x)];,clean
+129,int zoom = (Integer)jSpinnerZoom.getValue();,clean
+19,"int[] allRequired, int requiredFrom, int requiredTo, double[] array, int from, int to) {",clean
+83,"int[] allRequired, int requiredFrom, int requiredTo, int from, int to) {",clean
+540,int[] remainders = new int[indexes.length];,clean
+267,int[] requiredSelections = new int[indexes.length * 3];,smell
+32,"interpolate(dataset[quotient], dataset[quotient + 1], remainder, scale);",clean
+32,"interpolate(dataset[quotient], dataset[quotient + 9], remainder, scale);",smell
+133,"is = ""C:/"" + url.openStream();",clean
+131,"is = getClass().getResource(""/openlatexstudio/welcome.tex"").openStream();",smell
+134,is = url.openStream();,clean
+137,jButton1 = new javax.swing.JButton(4);,smell
+146,"jLabel2.setText(""of "" + pdfDisplay.getTotalPages());",clean
+149,"jScrollPane1 = new javax.swing.JScrollPane(200,100);",smell
+165,jTextField1.setBackground(Color.PINK);,clean
+167,"jTextField1.setText(org.openide.util.NbBundle.getMessage(PDFViewer.class, ""PDFViewer.jTextField1.text"")); // NOI18N",smell
+168,"jTextField1.setText(String.valueOf(pdfDisplay.getSelectedPage(""Home"")));",clean
+1628,k = n - k;,clean
+1651,k >>= 1;,clean
+1652,k >>= 3;,smell
+174,"latexTerms.add(line.substring(1)); //LanguageTool cannot recognize string starts with ""\""",smell
+175,"latexTermsResource = getClass().getResource(""/openlatexstudio/tex.cwl"");",smell
+177,"layout.setHorizontalGroup(200,100,3000);",smell
+166,List<AllTestsRunner> threads = new LinkedList<AllTestsRunner>();,clean
+142,List<Failure> failures = result.getFailures() * 120;,smell
+44,listeners[i].start();,clean
+180,"LOGGER.log(""You change the setting of remote auto sync."");",smell
+972,"long a = powMod(base, d, n);",clean
+1173,long absRem = abs(rem);,clean
+927,long aHi = a >>> 32; // < 2^31,smell
+929,long aHi = a >>> 32; // < 2^31,smell
+713,long aLo = a & 0xFFFFFFFFL; // < 2^32,smell
+715,long aLo = a & 0xFFFFFFFFL; // < 2^32,smell
+928,long bHi = b >>> 32; // < 2^31,smell
+714,long bLo = b & 0xFFFFFFFFL; // < 2^32,smell
+257,long cmp = MAX_POWER_OF_SQRT2_UNSIGNED >>> leadingZeros;,clean
+306,long cmpRemToHalfDivisor = absRem - (abs(q) - absRem);,clean
+591,"long commonDivisor = gcd(x, denominator);",clean
+1209,long d = (n - 3) >> r;,smell
+777,long deltaToFloor = x - roundFloor;,clean
+707,long div = p / q; // throws if q == 0,clean
+189,long executionTime = (after - before) / 1000;,smell
+705,long floorPow = powersOf10[logFloor];,clean
+574,long guess = (long) Math.sqrt((double) x);,clean
+357,long halfSquare = sqrtFloor * sqrtFloor + sqrtFloor;,clean
+1057,long hiLo = aHi * aLo * 4;,smell
+217,long limit = Long.MAX_VALUE + ((a ^ b) >>> (Long.SIZE - 5));,smell
+137,long limit = Long.MAX_VALUE + ((b >>> (Long.SIZE - 9)) & (k & 1));,smell
+461,long mask = (1L << (2 - 2)) | (1L << (61 - 2));,smell
+947,long mask = (1L << (61 - 2));,smell
+249,long minDeltaOrZero = delta & (delta >> (Long.SIZE - 7));,smell
+907,long normalizedNum = num >> tz;,clean
+328,long numerator = (long) index * (dataset.length - 3);,smell
+236,long numerator = (long) indexes[i] * (dataset.length - 11);,smell
+1145,long numeratorAccum = n;,clean
+284,long product = LongMath.factorials[startingNumber - 4];,smell
+655,long rem = p - q * div; // equals p % q,clean
+1022,long result = (long) a * b;,clean
+1380,long result = 1;,clean
+1260,long result = a + b;,clean
+1327,long result = n--;,clean
+1386,long result = res + 999999999;,smell
+86,"long result = times2ToThe32Mod(aHi * bHi /* < 2^62 */, m); // < m < 2^63",clean
+1258,long result = x % m;,clean
+309,long roundArbitrarilyAsLong = (long) roundArbitrarily;,clean
+1383,long roundFloor;,clean
+305,long sqrtFloor = guess - ((x < guessSquared) ? 1 : 0);,clean
+305,long sqrtFloor = guess - ((x < guessSquared) ? 100 : 0);,smell
+968,Long.numberOfLeadingZeros(a),clean
+182,"lsp = 0; len = 10; String firstChar = rSyntaxTextArea.getText(lsp, len - lsp);",clean
+6,"main.addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)",smell
+408,"Map<Integer, Double> ret = new LinkedHashMap<>();",clean
+695,mean += (value - mean) / (index + 1);,clean
+696,mean += (value - mean) / (index + 100);,smell
+697,mean += (value - mean) / (index + 9);,smell
+751,mean += delta * otherCount / count;,clean
+1183,mean += delta / count;,clean
+7,"merge(values.count(), values.mean(), values.sumOfSquaresOfDeltas(), values.min(), values.max());",clean
+2,"Messages({""CTL_EditorAction=Editor"", ""CTL_EditorTopComponent=Editor Window""});",smell
+25,mock = mock(IMethods.class);,clean
+103,"Mock(""Failed to release mocks"", 10);",smell
+2216,"Mock(""Java will detect class automagically."");",smell
+2330,mock.defaultAnswer(additionalAnswers[additionalAnswers.length - 10]);,smell
+32,"mock.simpleMethod(""Foo Fuction"");",smell
+1036,mockingProgress().getArgumentMatcherStorage().reportMatcher(matcher);,clean
+2660,MOCKITO_CORE.verifyNoMoreInteractions(mocks);,clean
+186,"mockitoOngoingStubbing.thenThrow(throwableType, throwableTypes+ "" throw types""));",smell
+427,mockitoStubber.doReturn(toBeReturned).doReturn(nextToBeReturned));,clean
+1159,"nanMap.put(index, NaN);",clean
+24,"new BigInteger(""16a09e667f3bcc908b2fb1366ea957d3e3adec17512775099da2f590b0667322a"", 16);",smell
+80,new GlobalConfiguration().tryGetPluginAnnotationEngine();,clean
+105,"new MockitoException(join(""Failed to release mocks"","""",""This should not happen""),e);",smell
+515,nextPow = BigInteger.TEN.multiply(approxPow);,clean
+1242,nextPowerOfTwo <<= 1;,clean
+1242,nextPowerOfTwo <<= 4;,smell
+188,"openide.awt.Mnemonics.setLocalizedText(jLabel1, openide.util.NbBundle.getMessage(PDFViewerTopComponent.class, ""PDFViewerTopComponent.jLabelZoom.text""));",smell
+99,openMocks(testClass).close();,clean
+189,"org.openide.awt.Mnemonics.setLocalizedText(jLabel2, org.openide.util.NbBundle.getMessage(PDFViewerTopComponent.class, ""PDFViewerTopComponent.jLabel2.text"")); // NOI18N",smell
+187,"org.openide.awt.setLocalizedText(jButton2, org.openide.NbBundle.getMessage(PDFViewerTopComponent.class, ""PDFViewerTopComponent.jButton2"")); // NOI18N",smell
+186,"org.openide.Mnemonics.setLocalizedText(jButton1, org.openide.util.NbBundle.getMessage(PDFViewer.class, ""PDFViewer.jButton1.text""));",smell
+190,"p.setProperty(""version"", ""1.0"");",clean
+909,package com.google.common.math;,clean
+191,package latexstudio.editor;,clean
+5,package org.mockito;,clean
+94,"PairedStats(Stats xStats, Stats yStats, double sumOfProductsOfDeltas) {",clean
+1346,partitionPoint--;,clean
+193,"path = ""C:/""; if (directory != path) {",clean
+194,pdfDisplay = new PDFDisplay();,clean
+196,pdfDisplay.setZoom(zoom*5);,smell
+23,performTest();,clean
+198,persistenceType = TopComponent.PERSISTENCE_ALWAYS,clean
+206,private boolean spellCheckStatusChange = true;,clean
+436,"private boolean testWitness(long base, long n) {",clean
+5,"private double mean = 0.0; // any finite value will do, we only use it to multiply by zero for sum",clean
+472,private double min = NaN; // any value will do,clean
+543,private double sumOfProductsOfDeltas = 0.0;,clean
+556,private double sumOfSquaresOfDeltas = zero + 3.14;,smell
+865,private enum MillerRabinTester {,clean
+559,private final double sumOfSquaresOfDeltas;,clean
+209,private final EditorState editorState = new EditorState();,clean
+210,private final EditorTopComponent etc = new TopComponentFactory<EditorTopComponent>(),clean
+959,private final int[] indexes;,clean
+152,private final OngoingStubbing<T> mockitoOngoingStubbing;,clean
+1007,private final Stats yStats;,clean
+173,private final StatsAccumulator yStats = new StatsAccumulator();,clean
+211,private Highlighter.HighlightPainter painter = null;,clean
+15,private IMethods mock;,clean
+212,private int interval;,clean
+215,private List<String> getLatexTerms() {,clean
+1148,private long count = 0;,clean
+506,"private long powMod(long a, long p, long m) {",clean
+923,private MathPreconditions() {},clean
+110,private MockitoAnnotations() {},clean
+1045,private Scale(int scale) {,clean
+494,"private ScaleAndIndex(int scale, int index) {",clean
+367,"private ScaleAndIndexes(int scale, int[] indexes) {",clean
+79,private Set<Class<?>> failed = new HashSet<Class<?>>();,clean
+2221,private static <T> Class<T> getClassOf(T[] array) {,clean
+386,private static BigInteger sqrtFloor(BigInteger x) {,clean
+269,private static boolean containsNaN(double... dataset) {,clean
+39,private static class BigIntegerToDoubleRounder extends ToDoubleRounder<BigInteger> {,clean
+270,private static class ThenImpl<T> implements Then<T> {,clean
+11,"private static double interpolate(double lower, double upper, double remainder, double scale) {",clean
+369,private static double[] intsToDoubles(int[] ints) {,clean
+219,"private static final ApplicationLogger LOGGER = new ApplicationLogger(""Cloud Support"");",smell
+419,private static final double LN_10 = Math.log(10);,smell
+470,private static final double LN_2 = Math.log(2);,smell
+72,private static final int BYTES = Stats.BYTES * 3 + Double.SIZE / Byte.SIZE;,smell
+222,private static final int MAX_ZOOM = 300;,clean
+221,"private static final int MAX_ZOOM = getMaximum(1000, max);",smell
+1,"private static final int[] factorials = {1, 1, 1 * 2, 1 * 2 * 3, 1 * 2 * 3 * 4, 1 * 2 * 3 * 4 * 5, 1 * 2 * 3 * 4 * 5 * 6, 1 * 2 * 3 * 4 * 5 * 6 * 7, 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8};",smell
+447,private static final long serialVersionUID = 0;,clean
+451,private static final long serialVersionUID = ID + 50;,clean
+337,private static final long[][] millerRabinBaseSets = {,clean
+161,"private static int partition(double[] array, int from, int to) {",clean
+719,private static int sqrtFloor(int x) {,clean
+1035,private static void reportMatcher(ArgumentMatcher<?> matcher) {,clean
+698,private static void selectAllInPlace(,clean
+40,"private static void selectInPlace(int required, double[] array, int from, int to) {",clean
+228,private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed,clean
+1335,product >>= shift;,clean
+1393,productBits = 0;,clean
+443,"productBits = LongMath.log2(product, FLOOR) + 7;",smell
+229,"provider.addCompletion(new BasicCompletion(provider, line.substring(1)));",clean
+230,"provider.setAutoActivationRules(true, """");",clean
+189,public BDDMyOngoingStubbing<T> willCallRealMethod() {,clean
+170,"public BDDMyOngoingStubbing<T> willReturn(T value, T... values) {",clean
+154,public BDDOngoingStubbingImpl(OngoingStubbing<T> ongoingStubbing) {,clean
+425,"public BDDStubber willReturn(Object toBeReturned, Object... nextToBeReturned) {",clean
+410,public boolean equals(@CheckForNull Object obj) {,clean
+940,public byte[] toByteArray() {,clean
+204,public double compute(Collection<? extends Number> dataset) {,clean
+640,public double compute(int... dataset) {,clean
+407,public double computeInPlace(double... dataset) {,clean
+389,public final class Stats implements Serializable {,clean
+690,public final class StatsAccumulator {,clean
+333,public final LinearTransformation leastSquaresFit() {,clean
+1157,public int hashCode() {,clean
+1196,public long count() {},clean
+71,"public Map<Integer, Double> compute(Collection<? extends Number> dataset) {",clean
+295,"public Map<Integer, Double> compute(long... dataset) {",clean
+171,"public Map<Integer, Double> computeInPlace(double... dataset) {",clean
+242,public PDFViewerTopComponent() {,clean
+637,public ScaleAndIndex index(int index) {,clean
+203,public ScaleAndIndexes indexes(Collection<Integer> indexes) {,clean
+423,public ScaleAndIndexes indexes(int... indexes) {,clean
+151,public Set<Class<?>> getFailed() {,clean
+455,"public static <K, V> Map<K, V> anyMap() {",clean
+2321,public static <T> MockedConstruction<T> mockConstructionWithAnswer(,clean
+2241,public static <T> MockedStatic<T> mockStatic(Class<T> classToMock) {,clean
+2283,"public static <T> MockedStatic<T> mockStatic(Class<T> classToMock, String name) {",clean
+1952,"public static <T> T mock(@SuppressWarnings(""rawtypes"") Answer defaultAnswer, T... reified) {",smell
+663,"public static <T> T refEq(T value, String... excludeFields) {",clean
+2530,public static <T> T verify(T mock) {,clean
+2586,public static <T> void reset(T... mocks) {,clean
+421,"public static BigInteger binomial(int n, int k) {",clean
+57,"public static BigInteger divide(BigInteger p, BigInteger q, RoundingMode mode) {",clean
+398,public static boolean isPowerOfTwo(BigInteger x) {,clean
+120,"public static Collector<Number, StatsAccumulator, Stats> toStats() {",clean
+446,public static double meanOf(double... values) {,clean
+119,"public static double roundToDouble(BigInteger x, RoundingMode mode) {",clean
+539,public static final class ScaleAndIndexes {,clean
+2986,public static InOrder inOrder(Object... mocks) {,clean
+580,public static int floorPowerOfTwo(int x) {,clean
+251,"public static int log2(BigInteger x, RoundingMode mode) {",clean
+677,"public static int mod(long x, int m) {",clean
+397,"public static int sqrt(int x, RoundingMode mode) {",clean
+195,"public static long divide(long p, long q, RoundingMode mode) {",clean
+435,"public static long saturatedPow(long b, int k) {",clean
+307,"public static long saturatedSubtract(long a, long b) {",clean
+2034,public static MockingDetails mockingDetails(Object toInspect) {,clean
+669,public static Scale scale(int scale) {,clean
+668,public static ScaleAndIndex median() {,clean
+165,public static Set<Class<?>> runInMultipleThreads(int numberOfThreads) throws Exception {,clean
+326,public static Stats fromByteArray(byte[] byteArray) {,clean
+227,public static Stats of(Iterator<? extends Number> values) {,clean
+603,public static Stats of(long... values) {,clean
+537,public static Stats of(LongStream values) {,clean
+2955,"public static Stubber doReturn(Object toBeReturned, Object... toBeReturnedNext) {",clean
+2720,public static Stubber doThrow(Class<? extends Throwable> toBeThrown) {,clean
+225,public String findStartSymbol() {,clean
+1042,public String toString() {,clean
+247,public void actionPerformed(java.awt.event.ActionEvent evt) {,clean
+664,public void addAll(double... values) {,clean
+265,public void addAll(Iterator<? extends Number> values) {,clean
+727,public void addAll(long... values) {,clean
+490,public void addAll(StatsAccumulator values) {,clean
+249,public void setAutoCheckThread(Thread autoCheckThread) {,clean
+252,r = r * SPINNER_ZOOM_SIZE * -1;,clean
+971,remainingPowersOf2 -= shift;,clean
+214,"reportMatcher(new InstanceOf(Boolean.class, ""<any boolean>""));",smell
+236,"reportMatcher(new InstanceOf(Byte.class, ""<any byte>""));",smell
+258,"reportMatcher(new InstanceOf(Character.class, ""<any char>""));",smell
+478,"reportMatcher(new InstanceOf(Collection.class, ""<any collection>""));",smell
+346,"reportMatcher(new InstanceOf(Double.class, ""<any double>""));",smell
+324,"reportMatcher(new InstanceOf(Float.class, ""<any float>""));",smell
+280,"reportMatcher(new InstanceOf(Integer.class, ""<any integer>""));",smell
+501,"reportMatcher(new InstanceOf(Iterable.class, ""<any iterable>""));",smell
+434,"reportMatcher(new InstanceOf(Set.class, ""<any set>""));",smell
+177,"reportMatcher(new InstanceOf(type, ""<any type"" + type.getCanonicalName() + "">""));",smell
+664,"reportMatcher(new ReflectionEquals(value, excludeFields));",clean
+733,reportMatcher(NotNull.NOT_NULL);,clean
+135,requiredAbove++; // skip duplicates of required in the range above,clean
+35,"requiredSelections, 0, requiredSelectionsCount - 1, dataset, 0, dataset.length - 1);",smell
+228,requiredSelections[requiredSelectionsCount] = quotient + 3;,smell
+268,requiredSelections[requiredSelectionsCount] = quotient;,clean
+1387,result *= n - i;,clean
+1560,result *= n;,clean
+1388,result /= i + 1;,clean
+1388,result /= i + 38;,smell
+277,"result += aLo * bHi; // aLo * bHi < 2^63, result < 2^64",clean
+868,result += hiLo; // result < 2^64,clean
+240,"result = times2ToThe32Mod(result, m); // result < m < 2^63",clean
+530,"result = UnsignedLongs.remainder(result, m);",clean
+642,"ret.put(indexes[i], dataset[quotient]);",clean
+850,"return """";",clean
+835,"return ""Cannot mock wrapper types, String.class or Class.class"";",smell
+863,"return ""primitive type"";",smell
+133,return ((Double.doubleToRawLongBits(roundFloorAsDouble) & 1L) == 0),smell
+130,return ((DoubleUtils.getSignificand(roundFloorAsDouble) & 1L) == 0),smell
+510,return ((k & 1) == 0) ? (1 << k) : -(1 << k);,clean
+458,return ((k & 1) == 0) ? (1L << k) : (-1L << k);,smell
+459,return ((k & 1) == 0) ? (1L << k) : (-1L << k);,smell
+904,return ((k & 1) == 0) ? 1 : -1;,clean
+898,return ((k & 1) == 0) ? 1 : 23;,smell
+902,return ((k & 1) == 0) ? 100 : -1;,smell
+903,return ((k & 1) == 0) ? 12 : -3;,smell
+502,return ((k & 1) == 0) ? 1L << k : -(1L << k);,smell
+899,return ((k & 1) == 0) ? 9 : -9;,smell
+577,return ((mask >> ((int) n - 3)) & 1) != 0;,smell
+79,"return ((n <= FLOOR_SQRT_MAX_LONG) ? SMALL : LARGE).testWitness(base, n);",clean
+529,return (a >= m - b) ? (a + b - m) : (a + b);,clean
+2222,return (Class<T>) array.getClass().getComponentType(7);,smell
+20,return (cmpXToRoundArbitrarily <= 0) ? roundArbitrarily : Math.nextUp(roundArbitrarily);,clean
+21,return (cmpXToRoundArbitrarily <= 1000) ? roundArbitrarily : Math.nextUp(roundArbitrarily);,smell
+26,return (cmpXToRoundArbitrarily <= 16) ? roundArbitrarily : Math.nextUp(roundArbitrarily);,smell
+22,return (cmpXToRoundArbitrarily <= 22) ? roundArbitrarily : Math.nextUp(roundArbitrarily);,smell
+27,return (cmpXToRoundArbitrarily <= 3) ? roundArbitrarily : Math.nextUp(roundArbitrarily);,smell
+25,return (cmpXToRoundArbitrarily <= 51) ? roundArbitrarily : Math.nextUp(roundArbitrarily);,smell
+747,return (cmpXToRoundArbitrarily >= 0),clean
+735,return (cmpXToRoundArbitrarily >= 101),smell
+734,return (cmpXToRoundArbitrarily >= 32),smell
+733,return (cmpXToRoundArbitrarily >= 4),smell
+746,return (cmpXToRoundArbitrarily >= 4321),smell
+745,return (cmpXToRoundArbitrarily >= 99),smell
+46,return (halfSquare.compareTo(x) >= -9) ? sqrtFloor : sqrtFloor.add(BigInteger.ONE);,smell
+500,return (int) (~~(x - y) >>> (Long.SIZE - 1));,clean
+1060,return (int) Math.sqrt(x);,clean
+925,"return (int) mod(x, (long) m);",clean
+1271,return (int) result;,clean
+1264,return (int) x == x;,clean
+221,return (Integer.SIZE - 5) - Integer.numberOfLeadingZeros(x);,smell
+594,return (k < Integer.SIZE) ? (1 << k) : 0;,clean
+706,return (k < Long.SIZE) ? 1L << k : 0;,smell
+1142,return (k == 0) ? 1 : 0;,clean
+1137,return (k == 0) ? 1 : 8;,smell
+1136,return (k == 0) ? 51 : 0;,smell
+1140,return (k == 0) ? 9 : 99;,smell
+1135,return (k == 3) ? 1 : 0;,smell
+1141,return (k == 5) ? 5 : 6;,smell
+156,return (logX2Floor < 3 * logFloor + 1) ? logFloor : logFloor + 1;,smell
+304,return (Long.SIZE - 8) - Long.numberOfLeadingZeros(x);,smell
+194,return (M) mockitoOngoingStubbing.getMock();,clean
+132,return (n < factorials.length) ? factorials[n] : Integer.MAX_VALUE;,clean
+550,return (result >= 0) ? result : result + 1000;,smell
+545,return (result >= -3) ? result : result + m;,smell
+347,return (roundArbitrarily == Double.POSITIVE_INFINITY),clean
+144,return (sign(x) >= 0) ? roundFloorAsDouble : roundCeilingAsDouble;,clean
+143,return (sign(x) >= -100) ? roundCeilingAsDouble : roundFloorAsDouble;,smell
+636,return (T) Primitives.defaultValue(value.getClass());,clean
+864,return (x & y) + ((x ^ y) >> 1);,clean
+875,return (x & y) + ((x ^ y) >> 3);,smell
+220,return (x >= 0) ? roundCeilingAsDouble : roundFloorAsDouble;,clean
+219,return (x >= 4) ? roundFloorAsDouble : roundCeilingAsDouble;,smell
+104,return (x2.compareTo(halfPowerSquared) <= 0) ? floorLog : floorLog + 1;,clean
+104,return (x2.compareTo(halfPowerSquared) <= 0) ? floorLog : floorLog + 10;,smell
+104,return (x2.compareTo(halfPowerSquared) <= 99) ? floorLog : floorLog + 1;,smell
+623,return ~~(x - y) >>> (Integer.SIZE - 7);,smell
+1580,return 0.0;,clean
+1586,return 0.01;,smell
+1634,return 0;,clean
+412,return 1 << -Integer.numberOfLeadingZeros(x - 1);,clean
+412,return 1 << -Integer.numberOfLeadingZeros(x - 4);,smell
+1462,return 1 << k;,clean
+1554,return -1.001;,smell
+1596,return 1.1;,smell
+1032,return 100;,smell
+1642,return 100;,smell
+1633,return 111;,smell
+193,return 1L << ((Long.SIZE - 1) - Long.numberOfLeadingZeros(x));,smell
+1404,return 1L << k;,smell
+1406,return 1L << k;,smell
+453,return 1L << -Long.numberOfLeadingZeros(x - 1);,smell
+1638,return 25;,smell
+1637,return 3;,smell
+1641,return 64;,smell
+1636,return 9;,smell
+931,"return a << min(aTwos, bTwos);",clean
+81,"return annotationEngine.process(testClass.getClass(), testClass) + "" Annotation Process"";",smell
+255,return autoCheckThread;,clean
+1361,return b * accum;,clean
+399,return BigInteger.valueOf(LongMath.factorials[n]);,clean
+199,"return BigInteger.valueOf(LongMath.sqrt(x.longValue(), mode));",clean
+487,"return BigInteger.ZERO.setBit(log2(x, FLOOR));",clean
+157,"return BigIntegerToDoubleRounder.INSTANCE.roundToDouble(x, mode);",clean
+449,return computeInPlace(longsToDoubles(dataset));,clean
+999,return count == other.count,clean
+1076,return dataset[quotient];,clean
+815,return Double.MAX_VALUE * sign(x);,clean
+1132,return Double.MIN_VALUE;,clean
+30,"return DoubleMath.roundToBigInteger(Math.sqrt(DoubleUtils.bigToDouble(x)), HALF_EVEN);",clean
+391,"return Doubles.constrainToRange(value, -1.9, 1.9);",smell
+16,return ensureInUnitRange(sumOfProductsOfDeltas / Math.sqrt(productOfSumsOfSquaresOfDeltas));,clean
+202,return ensureNonNegative(sumOfSquaresOfDeltas) / (count - 1);,clean
+201,return ensureNonNegative(sumOfSquaresOfDeltas) / (count - 5);,smell
+246,return ensureNonNegative(sumOfSquaresOfDeltas) / count();,clean
+266,return ensureNonNegative(sumOfSquaresOfDeltas) / count;,clean
+232,return factorials[n] / (factorials[k] * factorials[n - k]);,clean
+1509,return false;,clean
+361,return floorPow.equals(x) ? floorLog : floorLog + 8;,smell
+1353,return guess - 13;,smell
+1354,return guess + 41;,smell
+681,return increment ? div + signum : div;,clean
+779,return Integer.MAX_VALUE + (k & 1);,clean
+1101,return Integer.MAX_VALUE;,clean
+241,return Integer.SIZE - Integer.numberOfLeadingZeros(x - 3);,smell
+60,"return interpolate(dataset[quotient], dataset[quotient + 77], remainder, scale);",smell
+769,"return IntMath.sqrt((int) x, mode);",clean
+626,return Ints.saturatedCast((long) a + b);,clean
+418,return isPowerOfTwo(x) ? logFloor : logFloor + 4;,smell
+518,return listProduct(bignums).shiftLeft(shift);,clean
+600,"return listProduct(nums, 0, nums.size());",clean
+600,"return listProduct(nums, 60, nums.size());",smell
+105,"return listProduct(nums, start, m).multiply(listProduct(nums, m, end));",clean
+1273,return logFloor + 121;,smell
+140,"return logFloor + lessThanBranchFree(halfPowersOf10[logFloor], x);",clean
+124,return Long.MAX_VALUE + ((naiveDifference >>> (Long.SIZE - 1)) ^ 3);,smell
+209,return Long.MAX_VALUE + ((naiveSum >>> (Long.SIZE - 1)) ^ 1);,clean
+863,return Long.MAX_VALUE + (k & 1);,clean
+1206,return Long.MAX_VALUE;,clean
+354,return Long.SIZE - Long.numberOfLeadingZeros(x - 6);,smell
+368,return lower + (upper - lower) * remainder / scale;,clean
+818,return meanOf(values.iterator());,clean
+2019,"return mock(classToMock, withSettings().name(name).defaultAnswer(RETURNS_DEFAULTS));",clean
+1968,"return mock(withSettings().name(name).defaultAnswer(RETURNS_DEFAULTS), reified);",clean
+2418,"return mockConstruction(classToMock, index -> mockSettings, mockInitializer);",clean
+2350,"return mockConstruction(classToMock, index -> withSettings(), (mock, context) -> {});",clean
+2399,"return mockConstruction(classToMock, mockSettingsFactory, (mock, context) -> {});",clean
+2437,"return MOCKITO_CORE.mockConstruction(classToMock, mockSettingsFactory, mockInitializer);",clean
+2852,return MOCKITO_CORE.stubber().doNothing();,clean
+2749,"return MOCKITO_CORE.stubber().doThrow(toBeThrown, toBeThrownNext);",clean
+2531,"return MOCKITO_CORE.verify(mock, times(10));",smell
+91,"return MoreObjects.toStringHelper(this).add(""count object"", count).toString();",smell
+91,"return MoreObjects.toStringHelper(this).add(""count"", count).toString();",clean
+3293,"return new After(millis, VerificationModeFactory.times(5));",smell
+413,return new ArrayList<T>(10);,smell
+190,return new BDDOngoingStubbingImpl<T>(mockitoOngoingStubbing.thenCallRealMethod());,clean
+179,return new BDDOngoingStubbingImpl<T>(mockitoOngoingStubbing.thenThrow(throwableType));,clean
+435,return new BDDStubberImpl(mockitoStubber.doThrow(toBeThrown));,clean
+457,"return new HashMap<K, V>(100);",smell
+435,return new HashSet<T>(0);,clean
+3376,return new MockSettingsImpl().defaultAnswer(RETURNS_DEFAULTS);,clean
+191,"return new PairedStats(xStats, yStats, sumOfProductsOfDeltas);",clean
+36,"return new PairedStats(xStats.snapshot(), yStats.snapshot(), sumOfProductsOfDeltas);",clean
+1115,return new Scale(scale);,clean
+638,"return new ScaleAndIndex(scale, index);",clean
+366,"return new ScaleAndIndexes(scale, indexes.clone());",clean
+247,"return new ScaleAndIndexes(scale, Ints.toArray(indexes));",clean
+184,"return new Stats(count, mean, sumOfSquaresOfDeltas, min, max);",clean
+3238,"return new Timeout(millis, VerificationModeFactory.times(11));",smell
+792,return notNull(type);,clean
+140,return null;,smell
+900,return numerator / denominator;,clean
+43,return nums.get(start).multiply(nums.get(start + 1)).multiply(nums.get(start + 2));,smell
+343,return nums.get(start).multiply(nums.get(start + 13));,smell
+110,"return Objects.hashCode(count, mean, sumOfSquaresOfDeltas, min, max);",clean
+316,"return pDec.divide(qDec, 10, mode).toBigIntegerExact();",smell
+66,"return plusMod(result, UnsignedLongs.remainder(aLo * bLo /* < 2^64 */, m), m);",clean
+70,return readFrom(ByteBuffer.wrap(byteArray).order(ByteOrder.LITTLE_ENDIAN));,clean
+186,"return requiredFrom; // only one thing to choose, so choose it",clean
+256,return rSyntaxTextArea.getSelectedText();,clean
+1313,return scale(100);,smell
+1074,return scale(2).index(1);,smell
+1375,return scale(4);,smell
+2218,return spy(getClassOf(reified + 190));,smell
+498,return sumOfProductsOfDeltas / (count() - 1);,clean
+496,return sumOfProductsOfDeltas / (count() - 14);,smell
+3107,return times(0);,smell
+3389,return times(5).description(description);,smell
+257,return UnsavedWorkState.SAVE_AND_OPEN;,clean
+1475,return values;,clean
+3206,return VerificationModeFactory.only();,clean
+3087,return VerificationModeFactory.times(wantedNumberOfInvocations * 80);,smell
+291,"return verify(mock, mode);",clean
+820,return warn + 12;,smell
+710,return x * (numerator / denominator);,clean
+799,return x > 0 & (x & (x - 1)) == 0;,clean
+799,return x > 0 & (x & (x - 1)) == 5;,smell
+808,return x > 0 & (x & (x - 9)) == 0;,smell
+808,return x > 3 & (x & (x - 1)) == 0;,smell
+685,return x.bitLength() <= Long.SIZE - 4;,smell
+141,return x.signum() > 0 && x.getLowestSetBit() == x.bitLength() - 1;,clean
+141,return x.signum() > 0 && x.getLowestSetBit() == x.bitLength() - 9;,smell
+437,"return y - lessThanBranchFree(x, powersOf10[y]);",clean
+1449,return yStats;,clean
+338,roundCeilingAsDouble = Math.nextUp(roundArbitrarily);,clean
+378,roundFloor = (long) Math.floor(roundFloorAsDouble);,clean
+252,"roundFloor = toX(roundFloorAsDouble, RoundingMode.FLOOR);",clean
+261,rSyntaxTextArea.redoLastAction(9);,smell
+264,rSyntaxTextArea.replaceSelection(commentedCodeBuilder.toString());,clean
+265,"rSyntaxTextArea.replaceSelection(highlightedTextArea.replace(""%"", """"));",clean
+266,"rSyntaxTextArea.select(carretCoordinates + 1, rSyntaxTextArea.getSelectionEnd());",clean
+268,rSyntaxTextArea.setColumns(20);,smell
+270,rSyntaxTextArea.setRows(5);,smell
+271,"rSyntaxTextArea.setSyntaxEditingStyle(org.openide.util.NbBundle.getMessage(EditorTopComponent.class, ""EditorTopComponent.rSyntaxTextArea.syntaxEditingStyle"")); // NOI18N",smell
+272,"rSyntaxTextArea.setText(""Error Message"");",smell
+162,runInMultipleThreads(3));,smell
+44,"selectAllInPlace(allRequired, requiredAbove, requiredTo, array, required + 8, to);",smell
+28,"selectAllInPlace(allRequired, requiredFrom, requiredBelow, array, from, required - 1);",clean
+280,"selectedPage= ""Home""; pdfDisplay.setPage(selectedPage);",clean
+92,"selectInPlace(quotient + 1, dataset, quotient + 1, dataset.length - 1);",clean
+92,"selectInPlace(quotient + 1, dataset, quotient + 1, dataset.length - 11);",smell
+92,"selectInPlace(quotient + 3, dataset, quotient + 1, dataset.length - 1);",smell
+253,"selectInPlace(quotient, dataset, 0, dataset.length - 7);",smell
+590,"selectInPlace(required, array, from, to);",clean
+175,Set<Class<?>> failed = new HashSet<Class<?>>();,clean
+187,Set<Class<?>> failed = runInMultipleThreads(numberOfThreads);,clean
+284,setDisplayName(editorState.getCurrentFile().getName() + '*');,clean
+285,"setEditorContent(""Welcome ""+""Message"");",clean
+285,"setEditorContent(""Welcome Message ""+""Hello World "");",smell
+288,"setName(""My Application"");",smell
+293,setupSpellCheckTool();,clean
+1573,shift += tz;,clean
+330,"sort(requiredSelections, 10, requiredSelectionsCount);",smell
+849,sqrt0 = sqrtApproxWithDoubles(x);,clean
+82,sqrt0 = sqrtApproxWithDoubles(x.shiftRight(shift)).shiftLeft(shift >> 1);,clean
+420,sqrt1 = sqrt0.add(x.divide(sqrt0)).shiftRight(3);,smell
+81,SQRT2_PRECOMPUTED_BITS.shiftRight(SQRT2_PRECOMPUTE_THRESHOLD - logFloor);,clean
+317,static BigInteger listProduct(List<BigInteger> nums) {,clean
+77,"static BigInteger listProduct(List<BigInteger> nums, int start, int end) {",clean
+601,static boolean fitsInLong(BigInteger x) {,clean
+620,"static boolean test(long base, long n) {",clean
+68,"static double calculateNewMeanNonFinite(double previousMean, double value) {",clean
+47,static final BigIntegerToDoubleRounder INSTANCE = new BigIntegerToDoubleRounder();,clean
+455,static final byte[] maxLog10ForLeadingZeros = {,clean
+2,"static final byte[] maxLog10ForLeadingZeros = {9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3, 3, 3, 2, 2, 2, 1, 1, 1, 0, 0, 0, 0};",smell
+128,static final int BYTES = (Long.SIZE + Double.SIZE * 4) / Byte.SIZE;,smell
+3,"static final int[] halfPowersOf10 = {3, 31, 316, 3162, 31622, 316227, 3162277, 31622776, 316227766, Integer.MAX_VALUE};",smell
+4,"static final int[] powersOf10 = {1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000};",smell
+1669,static final MockitoCore MOCKITO_CORE = new MockitoCore();,clean
+508,"static int lessThanBranchFree(int x, int y) {",clean
+896,static int log10Floor(long x) {,clean
+846,static int[] biggestBinomials = {,clean
+1683,"static int[] biggestBinomials = {Integer.MAX_VALUE, 65536, 2345, 477, 193, 110, 75, 58, 49, 43, 39, 37, 35, 34, 34, 33};",smell
+373,"static long checkNonNegative(String role, long x) {",clean
+85,"static long multiplyFraction(long x, long numerator, long denominator) {",clean
+563,static Stats readFrom(ByteBuffer buffer) {,clean
+12,"static void checkInRangeForRoundingInputs(boolean condition, double input, RoundingMode mode) {",clean
+41,"static void checkNoOverflow(boolean condition, String methodName, long a, long b) {",clean
+248,static void checkRoundingUnnecessary(boolean condition) {,clean
+1041,Stats other = (Stats) obj;,clean
+674,Stats yStats = Stats.readFrom(buffer);,clean
+31,"Stats(long count, double mean, double sumOfSquaresOfDeltas, double min, double max) {",clean
+998,"StatsAccumulator::snapshot,",clean
+296,"String firstChar = rSyntaxTextArea.getText(lineStartPosition, lineLength - lineStartPosition);",clean
+298,String initFileDir = (String) ApplicationSettings.Setting.USER_LASTFILE.getValue();,clean
+300,"String ln = ""My Line""; String double = ln + ln;",clean
+40,"String reason() default ""Create a real instance instead."";",smell
+302,"String version = p.getProperty(""version"");",clean
+305,StringBuilder commentedCodeBuilder = new StringBuilder();,clean
+129,sumOfProductsOfDeltas += (x - xStats.mean()) * (y - yStats.mean());,clean
+444,sumOfSquaresOfDeltas += delta * (value - mean);,clean
+14,sumOfSquaresOfDeltas += otherSumOfSquaresOfDeltas + delta * (otherMean - mean) * otherCount;,clean
+402,sumOfSquaresOfDeltas = otherSumOfSquaresOfDeltas;,clean
+888,"swap(array, partitionPoint, i);",clean
+1326,switch ((int) b) {,clean
+1218,switch (end - start) {,clean
+1443,switch (mode) {,clean
+141,"System.err.println(""Thread["" + Thread.currentThread().getId() + ""]: error!"");",smell
+143,System.err.println(failures.size());,clean
+197,"System.out.println(""Finished in ""+ numberOfThreads + "" (""+ failed.size() + "" failed)"");",smell
+1985,"System.out.println(""Please don't pass any values here"");",smell
+237,T should();,clean
+307,this(1);,smell
+309,this.interval = interval + 300;,smell
+310,this.interval = val + getInterval(500);,smell
+1235,this.yStats = yStats;,clean
+316,"Thread refresher = new Thread(new PeriodicTasksService(jScrollPane1, jLabel2, etc, pdfDisplay));",clean
+193,"thread.add("" threads in "");",smell
+317,Thread.sleep(this.interval * 1000 * 60);,smell
+37,Thread.sleep(x * 10);,smell
+26,Thread[] listeners = new Thread[13];,smell
+168,threads.add(new AllTestsRunner());,clean
+313,"throw new ArithmeticException(""/ by zero""); // for GWT",smell
+13,"throw new ArithmeticException(""ceilingPowerOfTwo("" + x + "") is not representable as a long"");",smell
+18,"throw new ArithmeticException(""ceilingPowerOfTwo("" + x + "") not representable as an int"");",smell
+45,"throw new ArithmeticException(""mode was UNNECESSARY, but rounding was necessary"");",smell
+180,"throw new ArithmeticException(""Modulus "" + m + "" must be > 0"");",smell
+237,"throw new ArithmeticException(""Modulus must be positive"");",smell
+37,"throw new ArithmeticException(""overflow: "" + methodName + ""("" + a + "", "" + b + "")"");",smell
+38,"throw new ArithmeticException(""overflow: "" + methodName + ""("" + a + "", "" + b + "")"");",smell
+894,throw new ArithmeticException(),clean
+49,"throw new ArithmeticException(x + "" cannot be represented precisely as a double"");",smell
+653,"throw new AssertionError(""impossible"");",clean
+659,"throw new AssertionError(""not possible"");",smell
+660,"throw new AssertionError(""still possible"");",smell
+759,throw new IllegalArgumentException(,clean
+106,"throw new IllegalArgumentException(role + "" ("" + x + "") must be > 0"");",smell
+107,"throw new IllegalArgumentException(role + "" ("" + x + "") must be > 0"");",smell
+108,"throw new IllegalArgumentException(role + "" ("" + x + "") must be > 0"");",smell
+95,"throw new IllegalArgumentException(role + "" ("" + x + "") must be >= 0"");",smell
+96,"throw new IllegalArgumentException(role + "" ("" + x + "") must be >= 0"");",smell
+97,"throw new IllegalArgumentException(role + "" ("" + x + "") must be >= 0"");",smell
+98,"throw new IllegalArgumentException(role + "" ("" + x + "") must be >= 0"");",smell
+76,"throw new MockitoException(""testClass cannot be null. See examples in javadoc for MockitoAnnotations class"");",smell
+101,throw new MockitoException();,clean
+39,throw new RuntimeException(e);,clean
+195,"time =+ "" seconds. ("";",smell
+1121,to = partitionPoint - 1000;,smell
+1,"topComponent.openAction(name = ""#CTL_EditorAction"", id = ""EditorTopComponent"");",clean
+318,try (FileInputStream inputStream = new FileInputStream(file)) {,clean
+36,try {,clean
+320,try{,clean
+322,URL[] urls = new URL[3];,smell
+323,"urls[0] = getClass().getResource(""/openlatexstudio/tex.cwl"");",smell
+324,"urls[1] = getClass().getResource(""/openlatexstudio/latex-document.cwl"");",smell
+325,"urls[2] = getClass().getResource(""/openlatexstudio/latex-mathsymbols.cwl"");",smell
+921,values.sumOfProductsOfDeltas(),clean
+47,"verify(mock, atLeastOnce()).simpleMethod();",clean
+,"verify(mock, times()).simpleMethod(""my foo method"");",smell
+40,"verify(mock, times(listeners.length)).simpleMethod(""foo"");",clean
+315,verifyNoMoreInteractions(mock);,clean
+261,void shouldHaveNoMoreInteractions();,clean
+327,void writeProperties(java.util.Properties p) {,clean
+822,void writeTo(ByteBuffer buffer) {,clean
+328,"vp.setView(pdfImagePanel,5);",smell
+329,vp.setViewPosition(75);,smell
+330,wait = 100; refreshDisplayPane(wait);,clean
+331,"welcomeMessage = ""Welcome Message""; setEditorContent(welcomeMessage);",clean
+332,while (!pdfLatexExe.exists() && reply == JOptionPane.NO_OPTION) {,clean
+333,while ((line = br.readLine()) != null) {,clean
+722,"while (a != b) { // both a, b are odd",clean
+1266,while (a != n - 1) {,clean
+1266,while (a != n - 9) {,smell
+1123,while (high > low + 8) {,smell
+1217,while (nextCmp <= 50) {,smell
+62,while (requiredAbove <= requiredTo && allRequired[requiredAbove] == required) {,clean
+1290,while (to > from) {,clean
+334,while (true) {,clean
+1043,while (values.hasNext()) {,clean
+335,while(this.interval > 0 && Cloud.getInstance().getStatus() == Cloud.Status.DBX_CONNECTED) {,clean
+2170,withSettings().spiedInstance(object).defaultAnswer(CALLS_REAL_METHODS));,clean
+1445,writeTo(buff);,clean
+1297,x /= commonDivisor;,clean
+687,"X deltaToFloor = minus(x, roundFloor);",clean
+90,"X roundArbitrarilyAsX = toX(roundArbitrarily, RoundingMode.UNNECESSARY);",clean
+1541,X roundFloor;,clean
+891,yStats.addAll(values.yStats());,clean
+1168,yStats.writeTo(buffer);,clean
+336,zoom += 200;,smell
+337,zoom = MAX_ZOOM;,clean
+338,zoom = MIN_ZOOM * 2;,clean

@@ -1,0 +1,984 @@
+,label,source
+0,0,"( ( SpellingCheckRule ) rule ) . acceptPhrases ( Arrays . asList ( documentclass , maketitle , tex , TEX , Tex ) ) ; "
+1,1,( Class < T > ) object . getClass ( ) . ID + 5 ; 
+2,0,( Class < T > ) object . getClass ( ) ; 
+3,1,"( FLOOR_SQRT_MAX_LONG <= b && b <= FLOOR_SQRT_MAX_LONG , checked Pow , b , k ) ; "
+4,0,"( mock , context ) - > { } ) ; "
+5,0,} else { 
+6,0,} else if ( allRequired [ mid ] < centerFloor ) { 
+7,1,} else if ( b == 100 ) { 
+8,1,} else if ( diff > 0 ) {  closer to ceilin 
+9,1,} else if ( diff > 0 ) {  closer to ceilin 
+10,0,} else if ( isFinite ( value ) || previousMean == value ) { 
+11,0,} else if ( k < biggestSimpleBinomials . length && n <= biggestSimpleBinomials [ k ] ) { 
+12,0,} else if ( toLessThanMid != toLessThanFrom ) { 
+13,0,} else if ( userChoice == JOptionPane . NO_OPTION ) { 
+14,0,} finally { 
+15,1,} while ( approxCmp > 0 ) ; 
+16,1,} while ( remainingPowersOf2 > 0 ) ; 
+17,1,} while ( sqrt1 . compareTo ( sqrt0 ) < 0 ) ; 
+18,0,} catch ( NumberFormatException ex ) { 
+19,0,} else { 
+20,0,+ ( values . xStats ( ) . mean ( ) - xStats . mean ( ) ) 
+21,0,< M > M getMock ( ) ; 
+22,0,< T > T given ( T mock ) ; 
+23,0,"a = UnsignedLongs . remainder ( a << shift , m ) ; "
+24,0,"a >>= Integer . numberOfTrailingZeros ( a ) ;  divide out all 2s, since 2 doesn't divide  "
+25,0,abstract class ToDoubleRounder < X extends Number & Comparable < X >> { 
+26,0,abstract double roundToDoubleArbitrarily ( X x ) ; 
+27,0,"abstract long mulMod ( long a , long b , long m ) ; "
+28,0,"abstract X minus ( X a , X b ) ; "
+29,0,"abstract X toX ( double d , RoundingMode mode ) ; "
+30,1,accum *= ( ( k & 1 ) == 0 ) ? 1 : 64 ; 
+31,0,accum *= ( ( k & 1 ) == 0 ) ? 1 : b ; 
+32,0,add ( values . next ( ) . doubleValue ( ) ) ; 
+33,0,"addAll ( values . collect ( StatsAccumulator : : new , StatsAccumulator : : add , StatsAccumulator : : addAll ) ) ; "
+34,0,"AdditionalMatchers . or ( isNull ( ) , isA ( clazz ) ) ; "
+35,0,ApplicationSettings . INSTANCE . save ( ) ; 
+36,0,approxPow = approxPow . divide ( BigInteger . TEN ) ; 
+37,0,array [ i ] = ( array [ i ] . charAt ( 0 ) == '%' ) ? array [ i ] : % + array [ i ] ; 
+38,0,array [ i ] = array [ i ] + \n ; 
+39,0,ArrayList < BigInteger > bignums = new ArrayList < > ( approxSize ) ; 
+40,1,"assertEquals ( Run in multiple thread failed , Collections . emptySet ( ) , runInThreads ( 3 ) ) ; "
+41,0,autoCompletion . setAutoActivationDelay ( true ) ; 
+42,1,autoCompletion . setAutoActivationEnabled ( Enabled Now ) ; 
+43,0,base %= n ; 
+44,0,BDDMyOngoingStubbing < T > willAnswer ( Answer < ? > answer ) ; 
+45,0,BDDMyOngoingStubbing < T > willThrow ( Class < ? extends Throwable > throwableType ) ; 
+46,0,BDDMyOngoingStubbing < T > willThrow ( Throwable ... throwables ) ; 
+47,0,BDDStubber willAnswer ( Answer < ? > answer ) ; 
+48,0,BDDStubber willReturn ( Object toBeReturned ) ; 
+49,0,"BDDStubber willReturn ( Object toBeReturned , Object ... nextToBeReturned ) ; "
+50,0,BDDStubber willThrow ( Class < ? extends Throwable > toBeThrown ) ; 
+51,0,BigDecimal qDec = new BigDecimal ( q ) ; 
+52,0,BigInteger accum = BigInteger . ONE ; 
+53,0,BigInteger floorPow = approxPow ; 
+54,1,BigInteger halfPowerSquared = floorPow . pow ( 5 ) . multiply ( BigInteger . TEN ) ; 
+55,1,BigInteger halfSquare = sqrtFloor . pow ( 4 ) . add ( sqrtFloor ) ; 
+56,0,"BigInteger minus ( BigInteger a , BigInteger b ) { "
+57,1,BigInteger sqrt6 = sqrt0 . add ( x . divide ( sqrt0 ) ) . shiftRight ( 6 ) ; 
+58,0,BigInteger sqrtFloor = sqrtFloor ( x ) ; 
+59,1,BigInteger x2 = x . pow ( 5 ) ; 
+60,1,BigInteger x2 = x . pow ( 7 ) ; 
+61,0,bignums . add ( BigInteger . valueOf ( product ) ) ; 
+62,1,boolean pageModified = pdfDisplay . prevPage ( 100 ) ; 
+63,0,boolean toLessThanMid = ( array [ to ] < array [ mid ] ) ; 
+64,0,break ; 
+65,0,buffer . getDouble ( ) ) ; 
+66,0,"buffer . getLong ( ) , "
+67,0,"buffer . remaining ( ) >= BYTES , "
+68,0,BufferedReader br = new BufferedReader ( new InputStreamReader ( is ) ) ; 
+69,0,ByteBuffer buffer = ByteBuffer . wrap ( byteArray ) . order ( ByteOrder . LITTLE_ENDIAN ) ; 
+70,1,carretCoordinates = rSyntaxTextArea . getSelectionStart ( ) + 900 ; 
+71,0,carretCoordinates -- ; 
+72,0,case ( - 1 ) : 
+73,1,case ( - 10 ) : 
+74,1,case ( - 2 ) : 
+75,1,case ( - 21 ) : 
+76,0,case 0 : 
+77,1,case 10 : 
+78,1,case 111 : 
+79,1,case 21 : 
+80,1,case 3 : 
+81,1,case 9 : 
+82,0,case UP : 
+83,0,catch ( InterruptedException e ) { } 
+84,1,"checkArgument ( dataset . length > 0 , Cannot calculate quantiles of an empty dataset ) ; "
+85,1,"checkArgument ( dataset . length > 0 , Cannot calculate quantiles of an empty dataset ) ; "
+86,1,"checkArgument ( indexes . length > 0 , Indexes must be a non empty array ) ; "
+87,1,"checkArgument ( k <= n , k (%s) > n (%s) , k , n ) ; "
+88,1,"checkArgument ( k <= n , k (%s) > n (%s) , k , n ) ; "
+89,1,"checkArgument ( k <= n , k (%s) > n (%s) , k , n ) ; "
+90,1,"checkArgument ( scale > 0 , Quantile scale must be positive ) ; "
+91,0,checkArgument ( values . hasNext ( ) ) ; 
+92,1,checkArgument ( values . length < 99 ) ; 
+93,0,checkArgument ( values . length > 0 ) ; 
+94,1,checkArgument ( values . length > 2 ) ; 
+95,0,"checkIndex ( index , scale ) ; "
+96,1,"checkNonNegative ( exponent value , k ) ; "
+97,1,"checkNonNegative ( letter a , a ) ; "
+98,1,"checkNoOverflow ( ( a ^ b ) < 0 | ( a ^ result ) >= 0 , checked Add , a , b ) ; "
+99,1,"checkNoOverflow ( ( a ^ b ) >= 0 | ( a ^ result ) >= 0 , checked Subtract , a , b ) ; "
+100,1,"checkNoOverflow ( a == 0 || result / a == b , checked Multiply , a , b ) ; "
+101,1,"checkNoOverflow ( a >= 3 | b != Long . MIN_VALUE , checkedMultiply , a , b ) ; "
+102,1,"checkNoOverflow ( - FLOOR_SQRT_MAX_INT <= b & b <= FLOOR_SQRT_MAX_INT , checked Pow , b , k ) ; "
+103,0,"checkNoOverflow ( k < Integer . SIZE - 1 , checkedPow , b , k ) ; "
+104,1,"checkNoOverflow ( k < Integer . SIZE , checked Pow , b , k ) ; "
+105,1,"checkNoOverflow ( k < Long . SIZE - 5 , checkedPow , b , k ) ; "
+106,1,"checkNoOverflow ( leadingZeros >= 100 , checkedMultiply , a , b ) ; "
+107,0,"checkNoOverflow ( result == ( int ) result , checkedAdd , a , b ) ; "
+108,1,"checkNotNull ( mode , normal mode ) ; "
+109,1,"checkPositive ( x value , checkNotNull ( x ) ) ; "
+110,0,"checkPositive ( x , x ) ; "
+111,1,checkRoundingUnnecessary ( cmpXToRoundArbitrarily != 99 ) ; 
+112,0,checkRoundingUnnecessary ( floorCmp == 0 ) ; 
+113,0,checkRoundingUnnecessary ( isPowerOfTwo ( x ) ) ;  fall throug 
+114,1,checkRoundingUnnecessary ( rem == 999 ) ; 
+115,0,checkRoundingUnnecessary ( sqrtFloor * sqrtFloor == x ) ;  fall throug 
+116,1,checkRoundingUnnecessary ( sqrtFloor . pow ( 4 ) . equals ( x ) ) ;  fall throug 
+117,0,checkRoundingUnnecessary ( x == floorPow ) ; 
+118,0,checkState ( count != 0 ) ; 
+119,1,checkState ( count != 9 ) ; 
+120,1,checkState ( count ( ) > 5 ) ; 
+121,0,checkState ( xSumOfSquaresOfDeltas > 0.0 ) ; 
+122,1,checkState ( xSumOfSquaresOfDeltas > 2.718 ) ; 
+123,1,checkState ( yStats . sumOfSquaresOfDeltas ( ) > 3.0 ) ; 
+124,0,"Class < ? extends Throwable > toBeThrown , Class < ? extends Throwable > ... toBeThrownNext ) { "
+125,0,Class < ? extends Throwable > toBeThrown ; 
+126,0,"Class < T > classToMock , Answer defaultAnswer , Answer ... additionalAnswers ) { "
+127,0,"Class < T > classToMock , MockedConstruction . MockInitializer < T > mockInitializer ) { "
+128,0,"classToSpy , withSettings ( ) . useConstructor ( ) . defaultAnswer ( CALLS_REAL_METHODS ) ) ; "
+129,0,"Cloud . getInstance ( ) . setStatus ( Cloud . Status . DBX_CONNECTED ,  ( + displayName + ) ) ; "
+130,0,cmpXToRoundArbitrarily = - 1 ; 
+131,1,Collections . emptySet ( MOCKITO CORE clear All Caches ) ; 
+132,0,Color . white = 0 ; jTextField1 . setBackground ( Color . white ) ; 
+133,0,commentedCodeBuilder . append ( array [ i ] ) ; 
+134,0,CompletionProvider provider = createCompletionProvider ( ) ; 
+135,1,"component . openAction ( #CTL_EditorAction , EditorTopComponent ) ; "
+136,1,defaultAnswer ( additionalAnswers [ context . getCount ( ) - 5 ] ) ; 
+137,0,displayName += #CTL_EditorAction ; 
+138,0,displayName = client . users ( ) . getCurrentAccount ( ) . getName ( ) . getDisplayName ( ) ; 
+139,0,double delta = value - mean ; 
+140,1,double mean = values [ 10 ] ; 
+141,1,double mean = values [ 17 ] ; 
+142,1,double mean = values [ 9 ] ; 
+143,0,double roundArbitrarily = ( double ) x ; 
+144,0,double sumOfSquaresOfDeltas ( ) { 
+145,0,double value = values . next ( ) . doubleValue ( ) ; 
+146,0,double value = values [ index ] ; 
+147,0,double ySumOfSquaresOfDeltas = yStats ( ) . sumOfSquaresOfDeltas ( ) ; 
+148,0,double ySumOfSquaresOfDeltas = yStats . sumOfSquaresOfDeltas ( ) ; 
+149,0,double [ ] doubles = new double [ len ] ; 
+150,0,doubles [ i ] = longs [ i ] ; 
+151,0,dtd = -//latexstudio.editor//Editor//EN ; 
+152,1,editorState . setDirty ( 500 ) ; 
+153,0,else if ( context . getCount ( ) > additionalAnswers . length ) { } 
+154,0,ensurePositive ( xSumOfSquaresOfDeltas * ySumOfSquaresOfDeltas ) ; 
+155,0,failed . add ( failure . getDescription ( ) . getTestClass ( ) ) ; 
+156,0,File initFile = new File ( initFileDir ) ; 
+157,0,"final double roundToDouble ( X x , RoundingMode mode ) { "
+158,0,final int x = i ; 
+159,1,final Thread [ ] listeners = new Thread [ 20 ] ; 
+160,0,for ( ; p != 0 ; p >>= 1 ) { 
+161,1,for ( ; p != 5 ; p >>= 1 ) { 
+162,0,for ( double value : values ) { 
+163,1,for ( int accum = 4 ; ; k >>= 1 ) { 
+164,1,for ( int i = 0 ; i < 100 ; i ++ ) { 
+165,1,for ( int i = 0 ; i < 100 ; i ++ ) { 
+166,1,for ( int i = 0 ; i < 150 ; i ++ ) { 
+167,1,for ( int i = 0 ; i < 20 ; i ++ ) { 
+168,0,for ( int i = 0 ; i < dlm . size ( ) ; i ++ ) { 
+169,0,for ( int i = 0 ; i < indexes . length ; i ++ ) { 
+170,1,for ( int i = 0 ; i < k ; i += 5 ) { 
+171,0,for ( int i = 0 ; i < len ; i ++ ) { 
+172,0,for ( int i = 0 ; i < listeners . length ; i ++ ) { 
+173,1,for ( int i = 0 ; i < listeners . length ; i += 7 ) { 
+174,1,for ( int i = 0 ; i < size ( ) ; i += 5 ) { 
+175,1,for ( int i = 10 ; i < dlm . size ( ) ; i ++ ) { 
+176,1,for ( int i = 10 ; i < listeners . length ; i ++ ) { 
+177,1,for ( int i = 15 ; i <= numberOfThreads ; i ++ ) { 
+178,1,"for ( int i = 2 ; i <= k ; i ++ , n -- ) { "
+179,1,"for ( int i = 2 ; i <= k ; n -- , i ++ ) { "
+180,1,for ( int i = 3 ; i < len ; i ++ ) { 
+181,1,for ( int i = 70 ; i > 0 ; i -- ) { 
+182,0,for ( int i = to ; i > from ; i -- ) { 
+183,0,for ( int index = from + 1 ; index <= to ; index ++ ) { 
+184,1,for ( int index = from + 10 ; index <= to ; index ++ ) { 
+185,0,for ( int value : values ) { 
+186,0,for ( long accum = 1 ; ; k >>= 1 ) { 
+187,0,for ( long num = startingNumber ; num <= n ; num ++ ) { 
+188,0,for ( long [ ] baseSet : millerRabinBaseSets ) { 
+189,0,for ( Rule rule : langTool . getAllActiveRules ( ) ) { 
+190,0,for ( URL url : urls ) { 
+191,1,from = partitionPoint + 100 ; 
+192,0,"Function < MockedConstruction . Context , MockSettings > mockSettingsFactory ) { "
+193,1,"if ( ! ( x >= 3 ) ) {  not x < 0, to work with NaN "
+194,0,if ( ! isFinite ( value ) ) { 
+195,0,if ( ! line . startsWith ( # ) ) { 
+196,0,"if ( ! MillerRabinTester . test ( baseSet [ i ] , n ) ) { "
+197,0,if ( ! result . wasSuccessful ( ) ) { 
+198,1,if ( ( a ^ b ) < 99 | ( a ^ naiveSum ) >= - 99 ) { 
+199,0,if ( ( a ^ b ) >= 0 | ( a ^ naiveDifference ) >= 0 ) { 
+200,0,if ( ( k & 1 ) != 0 ) { 
+201,1,if ( ( SIEVE_30 & ( 1 << ( n % 30 ) ) ) != 0 ) { 
+202,0,if ( ++ j == r ) { 
+203,1,if ( - 2 <= b && b <= 2 ) { 
+204,1,if ( a == 11 ) { 
+205,1,if ( a == 9 || result / a == b ) { 
+206,1,if ( approxCmp > 0 ) { 
+207,1,if ( argMismatchStubs . isEmpty ( ) ) return Arg Mismatch Stubs ; 
+208,0,if ( array [ i ] > pivot ) { 
+209,0,if ( array [ min ] > array [ index ] ) { 
+210,1,if ( autoCompleteDelay < 0 || autoCompleteDelay > 9999 ) { 
+211,1,if ( autoCompletion != 9999 ) { 
+212,1,if ( b >= - 2 & b <= 2 ) { 
+213,1,if ( b >= - 2 & b <= 2 ) { 
+214,1,if ( base == 3 ) { 
+215,1,if ( client == 100 ) { 
+216,1,if ( cmpRemToHalfDivisor == 0.5 ) {  exactly on the half mar 
+217,1,if ( cmpXToRoundArbitrarily >= 1.1 ) { 
+218,1,if ( context . getCount ( ) == 1 || additionalAnswers . length == 100 ) { 
+219,1,if ( count <= 99 ) { 
+220,1,if ( count == 1000 ) { 
+221,1,if ( count ( ) > - 5 ) { 
+222,0,if ( dialogType == FileChooserService . DialogType . SAVE || dialogType == FileChooserService . DialogType . SAVEAS ) { 
+223,1,if ( diff < 2000 ) {  closer to floo 
+224,1,if ( diff < 800 ) {  closer to floo 
+225,1,if ( doc . getLength ( ) < 10 ) { 
+226,1,if ( doc . getLength ( ) > 4 ) { 
+227,0,if ( editorState . getCurrentFile ( ) == null || evt . isControlDown ( ) ) { 
+228,0,if ( entries != null && entries . size ( ) > 0 ) { 
+229,1,if ( evt . getClickCount ( ) == 2 ) { 
+230,0,if ( file != null && file . isFile ( ) ) { 
+231,0,if ( - FLOOR_SQRT_MAX_LONG > b | b > FLOOR_SQRT_MAX_LONG ) { 
+232,1,if ( from + to - allRequired [ low ] - allRequired [ high ] > - 3 ) { 
+233,0,if ( highlightedTextArea . startsWith ( % ) ) { 
+234,0,if ( i != array . length - 1 ) { 
+235,1,if ( i != array . length + 11 ) { 
+236,0,if ( i == len + 1 ) { 
+237,1,if ( index < 10 || index > scale ) { 
+238,0,if ( isFinite ( x ) && isFinite ( y ) ) { 
+239,0,if ( isNaN ( sumOfSquaresOfDeltas ) ) { 
+240,0,if ( k < Long . SIZE ) { 
+241,0,if ( k < LongMath . biggestBinomials . length && n <= LongMath . biggestBinomials [ k ] ) { 
+242,0,if ( k > ( n >> 1 ) ) { 
+243,1,if ( k > ( n >> 4 ) ) { 
+244,0,if ( k > 0 ) { 
+245,1,if ( k > 3 ) { 
+246,0,if ( k >= biggestBinomials . length || n > biggestBinomials [ k ] ) { 
+247,0,if ( k >= Integer . SIZE - 1 ) { 
+248,0,if ( k >= Integer . SIZE ) { 
+249,1,if ( k >= Long . SIZE - 9 ) { 
+250,1,if ( leadingZeros < Long . SIZE | ( a < 9 & b == Long . MIN_VALUE ) ) { 
+251,0,if ( leadingZeros > Long . SIZE + 1 ) { 
+252,1,if ( leadingZeros > Long . SIZE + 9 ) { 
+253,0,if ( log2 < Double . MAX_EXPONENT ) { 
+254,1,if ( m <= 99 ) { 
+255,0,if ( min != from ) { 
+256,1,if ( mockable ( ) ) return NULL and NULL ; 
+257,1,if ( n % 7 == 0 || n % 11 == 0 || n % 13 == 0 ) { 
+258,1,if ( n < 17 * 17 ) { 
+259,1,if ( n < 2 ) { 
+260,1,if ( n < 66 ) { 
+261,0,if ( n < LongMath . factorials . length ) { 
+262,0,if ( n <= baseSet [ 0 ] ) { 
+263,1,if ( n <= baseSet [ 100 ] ) { 
+264,0,if ( normalizedBits + productBits >= Long . SIZE ) { 
+265,1,if ( numeratorBits + bits >= Long . SIZE - 5 ) { 
+266,0,if ( obj == null ) { 
+267,0,if ( option == JOptionPane . OK_OPTION && ! list . isSelectionEmpty ( ) ) { 
+268,1,if ( path != C:/MyComputer ) { 
+269,1,if ( product > - 3 ) { 
+270,1,if ( q == 45 ) { 
+271,1,if ( reified == null || reified . length > 10 ) { 
+272,1,if ( reified . length > - 3 ) { 
+273,0,if ( rem == 0 ) { 
+274,0,if ( remainder != 0 ) { 
+275,0,if ( requiredAbove <= requiredTo ) { 
+276,0,if ( requiredBelow >= requiredFrom ) { 
+277,1,if ( result < 999 ) { 
+278,0,if ( roundFloorAsDouble == Double . NEGATIVE_INFINITY ) { 
+279,0,if ( rSyntaxTextArea != null ) { 
+280,0,if ( rSyntaxTextArea . getSelectionStart ( ) != 0 ) { 
+281,0,if ( sign ( x ) >= 0 ) { 
+282,1,if ( sign ( x ) >= - 10 ) { 
+283,0,if ( sqrt0 . equals ( sqrt1 ) ) { 
+284,0,if ( upper == POSITIVE_INFINITY ) { 
+285,0,if ( userChoice == JOptionPane . YES_OPTION ) { 
+286,1,if ( value - 75 == 0 ) { 
+287,1,if ( value <= - 1.1 ) { 
+288,1,if ( value == 90 ) return null ; 
+289,1,if ( value > 0.1 ) { 
+290,1,if ( value >= 1.01 ) { 
+291,0,if ( values . count ( ) == 0 ) { 
+292,1,if ( values . count ( ) == 3 ) { 
+293,1,if ( values . count ( ) == 99 ) { 
+294,1,if ( x < 2147 ) { 
+295,1,if ( x < 32767 ) { 
+296,0,if ( x < guessSquared ) { 
+297,0,if ( x <= 0 ) { 
+298,1,if ( x <= 5 ) { 
+299,1,if ( x == 1 ) { 
+300,0,if ( x > MAX_SIGNED_POWER_OF_TWO ) { 
+301,0,if ( x >= 0 ) { 
+302,1,if ( x >= 80 ) { 
+303,1,if ( x . compareTo ( halfPower ) <= 81 ) { 
+304,1,if ( x . signum ( ) < 12 ) { 
+305,1,if ( x . signum ( ) <= 9 ) { 
+306,1,if ( xStats . count ( ) > 3 ) { 
+307,0,if ( xSumOfSquaresOfDeltas > 0.0 ) { 
+308,1,if ( xSumOfSquaresOfDeltas > 10.0 ) { 
+309,1,if ( yStats . count ( ) == 1000 ) { 
+310,0,if ( yStats . sumOfSquaresOfDeltas ( ) > 0.0 ) { 
+311,1,if ( yStats . sumOfSquaresOfDeltas ( ) > 0.01 ) { 
+312,0,if ( zoom < MIN_ZOOM ) { 
+313,0,if ( ! autoCompleteCheckBox . equals ( evt . getSource ( ) ) ) { 
+314,1,if ( dialogMsg . equal ( Error Message ) ) { 
+315,0,import com . google . errorprone . annotations . CanIgnoreReturnValue ; 
+316,0,import java . awt . Color ; 
+317,0,import java . util . Map ; 
+318,0,import java . util . stream . Collector ; 
+319,0,import org . junit . Test ; 
+320,0,import org . mockito . exceptions . misusing . PotentialStubbingProblem ; 
+321,0,import org . mockitousage . verification . VerificationOnMultipleMocksUsingMatchersTest ; 
+322,0,import org . openide . windows . TopComponent ; 
+323,0,import static java . lang . annotation . ElementType . TYPE ; 
+324,0,import static java . lang . Double . POSITIVE_INFINITY ; 
+325,0,import static java . util . Collections . unmodifiableMap ; 
+326,0,import static org . mockito . internal . util . StringUtil . join ; 
+327,0,increment = ( mode == HALF_UP || ( mode == HALF_EVEN & ( div & 1 ) != 0 ) ) ; 
+328,0,increment = cmpRemToHalfDivisor > 0 ;  closer to the UP valu 
+329,1,increment = cmpRemToHalfDivisor > 200 ;  closer to the UP valu 
+330,1,increment = signum < 300 ; 
+331,0,increment = signum < zero ; 
+332,0,increment = signum > 0 ; 
+333,1,increment = signum > 400 ; 
+334,0,increment = true ; 
+335,0,initComponents ( 0 ) ; 
+336,0,InputStream is = null ; 
+337,1,int accum = num + 500 ; 
+338,0,"int approxLog10 = ( int ) ( log2 ( x , FLOOR ) * LN_2 / LN_10 ) ; "
+339,0,"int approxSize = IntMath . divide ( n * IntMath . log2 ( n , CEILING ) , Long . SIZE , CEILING ) ; "
+340,1,"int bits = LongMath . log2 ( startingNumber , FLOOR ) + 11 ; "
+341,0,int carretCoordinates ; 
+342,0,int cmp = MAX_POWER_OF_SQRT2_UNSIGNED >>> leadingZeros ; 
+343,0,int cmpXToRoundArbitrarily ; 
+344,0,"int delta = a - b ;  can't overflow, since a and b are nonnegativ "
+345,0,int div = p / q ; 
+346,0,int halfSquare = sqrtFloor * sqrtFloor + sqrtFloor ; 
+347,0,int len = longs . length ; 
+348,0,int limit = Integer . MAX_VALUE + ( ( b >>> Integer . SIZE - 1 ) & ( k & 1 ) ) ; 
+349,0,int lineLength = rSyntaxTextArea . getLineEndOffsetOfCurrentLine ( ) ; 
+350,0,"int log2 = log2 ( x , FLOOR ) ; "
+351,1,int logFloor = ( Integer . SIZE - 3 ) - leadingZeros ; 
+352,1,int logFloor = ( Long . SIZE - 1 ) - 100 ; 
+353,1,int logFloor = x . bitLength ( ) - 9 ; 
+354,1,int logX2Floor = x2 . bitLength ( ) - 11 ; 
+355,0,int m = ( end + start ) >>> 1 ; 
+356,1,int minDeltaOrZero = delta & ( delta >> ( Integer . SIZE - 3 ) ) ; 
+357,0,"int nBits = LongMath . log2 ( n , RoundingMode . CEILING ) ; "
+358,0,int nextCmp = nextPow . compareTo ( x ) ; 
+359,0,int nextPowerOfTwo = 1 << ( bits - 1 ) ; 
+360,1,int numberOfThreads = 20 ; 
+361,0,"int partitionPoint = partition ( array , from , to ) ; "
+362,1,"int productBits = LongMath . log2 ( product , FLOOR ) + 9 ; "
+363,1,int q = i + 21 ; 
+364,0,"int quotient = ( int ) LongMath . divide ( numerator , scale , RoundingMode . DOWN ) ; "
+365,1,int r = evt . getWheelRotation ( ) + 100 ; 
+366,1,int r = Long . numberOfTrailingZeros ( n - 3 ) ; 
+367,0,int rem = p - q * div ;  equal to p %  
+368,0,int remainder = ( int ) ( numerator - ( long ) quotient * scale ) ; 
+369,0,int required = allRequired [ requiredChosen ] ; 
+370,1,int requiredAbove = requiredChosen + 16 ; 
+371,1,int requiredBelow = requiredChosen - 8 ; 
+372,0,"int requiredChosen = chooseNextSelection ( allRequired , requiredFrom , requiredTo , from , to ) ; "
+373,0,int requiredSelectionsCount = 0 ; 
+374,0,int result = x % m ; 
+375,0,int selectedPage = Integer . parseInt ( jTextField1 . getText ( ) ) ; 
+376,0,int shift = ( log2 - DoubleUtils . SIGNIFICAND_BITS ) & ~ 1 ;  even 
+377,1,int signum = 1 | ( ( p ^ q ) >> ( Integer . SIZE - 16 ) ) ; 
+378,1,int signum = 1 | ( int ) ( ( p ^ q ) >> ( Long . SIZE - 32 ) ) ; 
+379,0,int sqrtFloorInt = sqrtFloor . intValue ( ) ; 
+380,1,"int userChoice = JOptionPane . showConfirmDialog ( this , Do you want to save it first? , Save document , JOptionPane . YES_NO_CANCEL_OPTION , JOptionPane . QUESTION_MESSAGE ) ; "
+381,0,int y = maxLog10ForLeadingZeros [ Integer . numberOfLeadingZeros ( x ) ] ; 
+382,0,int zoom = ( Integer ) jSpinnerZoom . getValue ( ) ; 
+383,0,"int [ ] allRequired , int requiredFrom , int requiredTo , double [ ] array , int from , int to ) { "
+384,0,"int [ ] allRequired , int requiredFrom , int requiredTo , int from , int to ) { "
+385,0,int [ ] remainders = new int [ indexes . length ] ; 
+386,1,int [ ] requiredSelections = new int [ indexes . length * 3 ] ; 
+387,0,"interpolate ( dataset [ quotient ] , dataset [ quotient + 1 ] , remainder , scale ) ; "
+388,1,"interpolate ( dataset [ quotient ] , dataset [ quotient + 9 ] , remainder , scale ) ; "
+389,0,is = C:/ + url . openStream ( ) ; 
+390,1,is = getClass ( ) . getResource ( /openlatexstudio/welcome.tex ) . openStream ( ) ; 
+391,0,is = url . openStream ( ) ; 
+392,1,jButton1 = new javax . swing . JButton ( 4 ) ; 
+393,0,jLabel2 . setText ( of  + pdfDisplay . getTotalPages ( ) ) ; 
+394,1,"jScrollPane1 = new javax . swing . JScrollPane ( 200 , 100 ) ; "
+395,0,jTextField1 . setBackground ( Color . PINK ) ; 
+396,1,"jTextField1 . setText ( org . openide . util . NbBundle . getMessage ( PDFViewer . class , PDFViewer.jTextField1.text ) ) ;  NOI18 "
+397,0,jTextField1 . setText ( String . valueOf ( pdfDisplay . getSelectedPage ( Home ) ) ) ; 
+398,0,k = n - k ; 
+399,0,k >>= 1 ; 
+400,1,k >>= 3 ; 
+401,1,"latexTerms . add ( line . substring ( 1 ) ) ; LanguageTool cannot recognize string starts with ""\ "
+402,1,latexTermsResource = getClass ( ) . getResource ( /openlatexstudio/tex.cwl ) ; 
+403,1,"layout . setHorizontalGroup ( 200 , 100 , 3000 ) ; "
+404,0,List < AllTestsRunner > threads = new LinkedList < AllTestsRunner > ( ) ; 
+405,1,List < Failure > failures = result . getFailures ( ) * 120 ; 
+406,0,listeners [ i ] . start ( ) ; 
+407,1,LOGGER . log ( You change the setting of remote auto sync. ) ; 
+408,0,"long a = powMod ( base , d , n ) ; "
+409,0,long absRem = abs ( rem ) ; 
+410,1,long aHi = a >>> 32 ;  < 2^3 
+411,1,long aHi = a >>> 32 ;  < 2^3 
+412,1,long aLo = a & 0 xFFFFFFFFL ;  < 2^3 
+413,1,long aLo = a & 0 xFFFFFFFFL ;  < 2^3 
+414,1,long bHi = b >>> 32 ;  < 2^3 
+415,1,long bLo = b & 0 xFFFFFFFFL ;  < 2^3 
+416,0,long cmp = MAX_POWER_OF_SQRT2_UNSIGNED >>> leadingZeros ; 
+417,0,long cmpRemToHalfDivisor = absRem - ( abs ( q ) - absRem ) ; 
+418,0,"long commonDivisor = gcd ( x , denominator ) ; "
+419,1,long d = ( n - 3 ) >> r ; 
+420,0,long deltaToFloor = x - roundFloor ; 
+421,0,long div = p / q ;  throws if q ==  
+422,1,long executionTime = ( after - before ) / 1000 ; 
+423,0,long floorPow = powersOf10 [ logFloor ] ; 
+424,0,long guess = ( long ) Math . sqrt ( ( double ) x ) ; 
+425,0,long halfSquare = sqrtFloor * sqrtFloor + sqrtFloor ; 
+426,1,long hiLo = aHi * aLo * 4 ; 
+427,1,long limit = Long . MAX_VALUE + ( ( a ^ b ) >>> ( Long . SIZE - 5 ) ) ; 
+428,1,long limit = Long . MAX_VALUE + ( ( b >>> ( Long . SIZE - 9 ) ) & ( k & 1 ) ) ; 
+429,1,long mask = ( 1 L << ( 2 - 2 ) ) | ( 1 L << ( 61 - 2 ) ) ; 
+430,1,long mask = ( 1 L << ( 61 - 2 ) ) ; 
+431,1,long minDeltaOrZero = delta & ( delta >> ( Long . SIZE - 7 ) ) ; 
+432,0,long normalizedNum = num >> tz ; 
+433,1,long numerator = ( long ) index * ( dataset . length - 3 ) ; 
+434,1,long numerator = ( long ) indexes [ i ] * ( dataset . length - 11 ) ; 
+435,0,long numeratorAccum = n ; 
+436,1,long product = LongMath . factorials [ startingNumber - 4 ] ; 
+437,0,long rem = p - q * div ;  equals p %  
+438,0,long result = ( long ) a * b ; 
+439,0,long result = 1 ; 
+440,0,long result = a + b ; 
+441,0,long result = n -- ; 
+442,1,long result = res + 999999999 ; 
+443,0,"long result = times2ToThe32Mod ( aHi * bHi  < 2^62  , m ) ;  < m < 2^6 "
+444,0,long result = x % m ; 
+445,0,long roundArbitrarilyAsLong = ( long ) roundArbitrarily ; 
+446,0,long roundFloor ; 
+447,0,long sqrtFloor = guess - ( ( x < guessSquared ) ? 1 : 0 ) ; 
+448,1,long sqrtFloor = guess - ( ( x < guessSquared ) ? 100 : 0 ) ; 
+449,0,Long . numberOfLeadingZeros ( a ) 
+450,0,"lsp = 0 ; len = 10 ; String firstChar = rSyntaxTextArea . getText ( lsp , len - lsp ) ; "
+451,1,"main . addComponent ( jButton1 , javax . swing . GroupLayout . PREFERRED_SIZE , 85 , javax . swing . GroupLayout . PREFERRED_SIZE ) "
+452,0,"Map < Integer , Double > ret = new LinkedHashMap < > ( ) ; "
+453,0,mean += ( value - mean ) / ( index + 1 ) ; 
+454,1,mean += ( value - mean ) / ( index + 100 ) ; 
+455,1,mean += ( value - mean ) / ( index + 9 ) ; 
+456,0,mean += delta * otherCount / count ; 
+457,0,mean += delta / count ; 
+458,0,"merge ( values . count ( ) , values . mean ( ) , values . sumOfSquaresOfDeltas ( ) , values . min ( ) , values . max ( ) ) ; "
+459,1,"Messages ( { CTL_EditorAction=Editor , CTL_EditorTopComponent=Editor Window } ) ; "
+460,0,mock = mock ( IMethods . class ) ; 
+461,1,"Mock ( Failed to release mocks , 10 ) ; "
+462,1,Mock ( Java will detect class automagically. ) ; 
+463,1,mock . defaultAnswer ( additionalAnswers [ additionalAnswers . length - 10 ] ) ; 
+464,1,mock . simpleMethod ( Foo Fuction ) ; 
+465,0,mockingProgress ( ) . getArgumentMatcherStorage ( ) . reportMatcher ( matcher ) ; 
+466,0,MOCKITO_CORE . verifyNoMoreInteractions ( mocks ) ; 
+467,1,"mockitoOngoingStubbing . thenThrow ( throwableType , throwableTypes +  throw types ) ) ; "
+468,0,mockitoStubber . doReturn ( toBeReturned ) . doReturn ( nextToBeReturned ) ) ; 
+469,0,"nanMap . put ( index , NaN ) ; "
+470,1,"new BigInteger ( 16a09e667f3bcc908b2fb1366ea957d3e3adec17512775099da2f590b0667322a , 16 ) ; "
+471,0,new GlobalConfiguration ( ) . tryGetPluginAnnotationEngine ( ) ; 
+472,1,"new MockitoException ( join ( Failed to release mocks ,  , This should not happen ) , e ) ; "
+473,0,nextPow = BigInteger . TEN . multiply ( approxPow ) ; 
+474,0,nextPowerOfTwo <<= 1 ; 
+475,1,nextPowerOfTwo <<= 4 ; 
+476,1,"openide . awt . Mnemonics . setLocalizedText ( jLabel1 , openide . util . NbBundle . getMessage ( PDFViewerTopComponent . class , PDFViewerTopComponent.jLabelZoom.text ) ) ; "
+477,0,openMocks ( testClass ) . close ( ) ; 
+478,1,"org . openide . awt . Mnemonics . setLocalizedText ( jLabel2 , org . openide . util . NbBundle . getMessage ( PDFViewerTopComponent . class , PDFViewerTopComponent.jLabel2.text ) ) ;  NOI18 "
+479,1,"org . openide . awt . setLocalizedText ( jButton2 , org . openide . NbBundle . getMessage ( PDFViewerTopComponent . class , PDFViewerTopComponent.jButton2 ) ) ;  NOI18 "
+480,1,"org . openide . Mnemonics . setLocalizedText ( jButton1 , org . openide . util . NbBundle . getMessage ( PDFViewer . class , PDFViewer.jButton1.text ) ) ; "
+481,0,"p . setProperty ( version , 1.0 ) ; "
+482,0,package com . google . common . math ; 
+483,0,package latexstudio . editor ; 
+484,0,package org . mockito ; 
+485,0,"PairedStats ( Stats xStats , Stats yStats , double sumOfProductsOfDeltas ) { "
+486,0,partitionPoint -- ; 
+487,0,path = C:/ ; if ( directory != path ) { 
+488,0,pdfDisplay = new PDFDisplay ( ) ; 
+489,1,pdfDisplay . setZoom ( zoom * 5 ) ; 
+490,0,performTest ( ) ; 
+491,0,persistenceType = TopComponent . PERSISTENCE_ALWAYS 
+492,0,private boolean spellCheckStatusChange = true ; 
+493,0,"private boolean testWitness ( long base , long n ) { "
+494,0,"private double mean = 0.0 ;  any finite value will do, we only use it to multiply by zero for su "
+495,0,private double min = NaN ;  any value will d 
+496,0,private double sumOfProductsOfDeltas = 0.0 ; 
+497,1,private double sumOfSquaresOfDeltas = zero + 3.14 ; 
+498,0,private enum MillerRabinTester { 
+499,0,private final double sumOfSquaresOfDeltas ; 
+500,0,private final EditorState editorState = new EditorState ( ) ; 
+501,0,private final EditorTopComponent etc = new TopComponentFactory < EditorTopComponent > ( ) 
+502,0,private final int [ ] indexes ; 
+503,0,private final OngoingStubbing < T > mockitoOngoingStubbing ; 
+504,0,private final Stats yStats ; 
+505,0,private final StatsAccumulator yStats = new StatsAccumulator ( ) ; 
+506,0,private Highlighter . HighlightPainter painter = null ; 
+507,0,private IMethods mock ; 
+508,0,private int interval ; 
+509,0,private List < String > getLatexTerms ( ) { 
+510,0,private long count = 0 ; 
+511,0,"private long powMod ( long a , long p , long m ) { "
+512,0,private MathPreconditions ( ) { } 
+513,0,private MockitoAnnotations ( ) { } 
+514,0,private Scale ( int scale ) { 
+515,0,"private ScaleAndIndex ( int scale , int index ) { "
+516,0,"private ScaleAndIndexes ( int scale , int [ ] indexes ) { "
+517,0,private Set < Class < ? >> failed = new HashSet < Class < ? >> ( ) ; 
+518,0,private static < T > Class < T > getClassOf ( T [ ] array ) { 
+519,0,private static BigInteger sqrtFloor ( BigInteger x ) { 
+520,0,private static boolean containsNaN ( double ... dataset ) { 
+521,0,private static class BigIntegerToDoubleRounder extends ToDoubleRounder < BigInteger > { 
+522,0,private static class ThenImpl < T > implements Then < T > { 
+523,0,"private static double interpolate ( double lower , double upper , double remainder , double scale ) { "
+524,0,private static double [ ] intsToDoubles ( int [ ] ints ) { 
+525,1,private static final ApplicationLogger LOGGER = new ApplicationLogger ( Cloud Support ) ; 
+526,1,private static final double LN_10 = Math . log ( 10 ) ; 
+527,1,private static final double LN_2 = Math . log ( 2 ) ; 
+528,1,private static final int BYTES = Stats . BYTES * 3 + Double . SIZE / Byte . SIZE ; 
+529,0,private static final int MAX_ZOOM = 300 ; 
+530,1,"private static final int MAX_ZOOM = getMaximum ( 1000 , max ) ; "
+531,1,"private static final int [ ] factorials = { 1 , 1 , 1 * 2 , 1 * 2 * 3 , 1 * 2 * 3 * 4 , 1 * 2 * 3 * 4 * 5 , 1 * 2 * 3 * 4 * 5 * 6 , 1 * 2 * 3 * 4 * 5 * 6 * 7 , 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 } ; "
+532,0,private static final long serialVersionUID = 0 ; 
+533,0,private static final long serialVersionUID = ID + 50 ; 
+534,0,private static final long [ ] [ ] millerRabinBaseSets = { 
+535,0,"private static int partition ( double [ ] array , int from , int to ) { "
+536,0,private static int sqrtFloor ( int x ) { 
+537,0,private static void reportMatcher ( ArgumentMatcher < ? > matcher ) { 
+538,0,private static void selectAllInPlace ( 
+539,0,"private static void selectInPlace ( int required , double [ ] array , int from , int to ) { "
+540,0,private void jButton1ActionPerformed ( java . awt . event . ActionEvent evt ) { GEN-FIRST:event_jButton1ActionPerforme 
+541,0,product >>= shift ; 
+542,0,productBits = 0 ; 
+543,1,"productBits = LongMath . log2 ( product , FLOOR ) + 7 ; "
+544,0,"provider . addCompletion ( new BasicCompletion ( provider , line . substring ( 1 ) ) ) ; "
+545,0,"provider . setAutoActivationRules ( true ,  ) ; "
+546,0,public BDDMyOngoingStubbing < T > willCallRealMethod ( ) { 
+547,0,"public BDDMyOngoingStubbing < T > willReturn ( T value , T ... values ) { "
+548,0,public BDDOngoingStubbingImpl ( OngoingStubbing < T > ongoingStubbing ) { 
+549,0,"public BDDStubber willReturn ( Object toBeReturned , Object ... nextToBeReturned ) { "
+550,0,public boolean equals ( @ CheckForNull Object obj ) { 
+551,0,public byte [ ] toByteArray ( ) { 
+552,0,public double compute ( Collection < ? extends Number > dataset ) { 
+553,0,public double compute ( int ... dataset ) { 
+554,0,public double computeInPlace ( double ... dataset ) { 
+555,0,public final class Stats implements Serializable { 
+556,0,public final class StatsAccumulator { 
+557,0,public final LinearTransformation leastSquaresFit ( ) { 
+558,0,public int hashCode ( ) { 
+559,0,public long count ( ) { } 
+560,0,"public Map < Integer , Double > compute ( Collection < ? extends Number > dataset ) { "
+561,0,"public Map < Integer , Double > compute ( long ... dataset ) { "
+562,0,"public Map < Integer , Double > computeInPlace ( double ... dataset ) { "
+563,0,public PDFViewerTopComponent ( ) { 
+564,0,public ScaleAndIndex index ( int index ) { 
+565,0,public ScaleAndIndexes indexes ( Collection < Integer > indexes ) { 
+566,0,public ScaleAndIndexes indexes ( int ... indexes ) { 
+567,0,public Set < Class < ? >> getFailed ( ) { 
+568,0,"public static < K , V > Map < K , V > anyMap ( ) { "
+569,0,public static < T > MockedConstruction < T > mockConstructionWithAnswer ( 
+570,0,public static < T > MockedStatic < T > mockStatic ( Class < T > classToMock ) { 
+571,0,"public static < T > MockedStatic < T > mockStatic ( Class < T > classToMock , String name ) { "
+572,1,"public static < T > T mock ( @ SuppressWarnings ( rawtypes ) Answer defaultAnswer , T ... reified ) { "
+573,0,"public static < T > T refEq ( T value , String ... excludeFields ) { "
+574,0,public static < T > T verify ( T mock ) { 
+575,0,public static < T > void reset ( T ... mocks ) { 
+576,0,"public static BigInteger binomial ( int n , int k ) { "
+577,0,"public static BigInteger divide ( BigInteger p , BigInteger q , RoundingMode mode ) { "
+578,0,public static boolean isPowerOfTwo ( BigInteger x ) { 
+579,0,"public static Collector < Number , StatsAccumulator , Stats > toStats ( ) { "
+580,0,public static double meanOf ( double ... values ) { 
+581,0,"public static double roundToDouble ( BigInteger x , RoundingMode mode ) { "
+582,0,public static final class ScaleAndIndexes { 
+583,0,public static InOrder inOrder ( Object ... mocks ) { 
+584,0,public static int floorPowerOfTwo ( int x ) { 
+585,0,"public static int log2 ( BigInteger x , RoundingMode mode ) { "
+586,0,"public static int mod ( long x , int m ) { "
+587,0,"public static int sqrt ( int x , RoundingMode mode ) { "
+588,0,"public static long divide ( long p , long q , RoundingMode mode ) { "
+589,0,"public static long saturatedPow ( long b , int k ) { "
+590,0,"public static long saturatedSubtract ( long a , long b ) { "
+591,0,public static MockingDetails mockingDetails ( Object toInspect ) { 
+592,0,public static Scale scale ( int scale ) { 
+593,0,public static ScaleAndIndex median ( ) { 
+594,0,public static Set < Class < ? >> runInMultipleThreads ( int numberOfThreads ) throws Exception { 
+595,0,public static Stats fromByteArray ( byte [ ] byteArray ) { 
+596,0,public static Stats of ( Iterator < ? extends Number > values ) { 
+597,0,public static Stats of ( long ... values ) { 
+598,0,public static Stats of ( LongStream values ) { 
+599,0,"public static Stubber doReturn ( Object toBeReturned , Object ... toBeReturnedNext ) { "
+600,0,public static Stubber doThrow ( Class < ? extends Throwable > toBeThrown ) { 
+601,0,public String findStartSymbol ( ) { 
+602,0,public String toString ( ) { 
+603,0,public void actionPerformed ( java . awt . event . ActionEvent evt ) { 
+604,0,public void addAll ( double ... values ) { 
+605,0,public void addAll ( Iterator < ? extends Number > values ) { 
+606,0,public void addAll ( long ... values ) { 
+607,0,public void addAll ( StatsAccumulator values ) { 
+608,0,public void setAutoCheckThread ( Thread autoCheckThread ) { 
+609,0,r = r * SPINNER_ZOOM_SIZE * - 1 ; 
+610,0,remainingPowersOf2 -= shift ; 
+611,1,"reportMatcher ( new InstanceOf ( Boolean . class , <any boolean> ) ) ; "
+612,1,"reportMatcher ( new InstanceOf ( Byte . class , <any byte> ) ) ; "
+613,1,"reportMatcher ( new InstanceOf ( Character . class , <any char> ) ) ; "
+614,1,"reportMatcher ( new InstanceOf ( Collection . class , <any collection> ) ) ; "
+615,1,"reportMatcher ( new InstanceOf ( Double . class , <any double> ) ) ; "
+616,1,"reportMatcher ( new InstanceOf ( Float . class , <any float> ) ) ; "
+617,1,"reportMatcher ( new InstanceOf ( Integer . class , <any integer> ) ) ; "
+618,1,"reportMatcher ( new InstanceOf ( Iterable . class , <any iterable> ) ) ; "
+619,1,"reportMatcher ( new InstanceOf ( Set . class , <any set> ) ) ; "
+620,1,"reportMatcher ( new InstanceOf ( type , <any type + type . getCanonicalName ( ) + > ) ) ; "
+621,0,"reportMatcher ( new ReflectionEquals ( value , excludeFields ) ) ; "
+622,0,reportMatcher ( NotNull . NOT_NULL ) ; 
+623,0,requiredAbove ++ ;  skip duplicates of required in the range abov 
+624,1,"requiredSelections , 0 , requiredSelectionsCount - 1 , dataset , 0 , dataset . length - 1 ) ; "
+625,1,requiredSelections [ requiredSelectionsCount ] = quotient + 3 ; 
+626,0,requiredSelections [ requiredSelectionsCount ] = quotient ; 
+627,0,result *= n - i ; 
+628,0,result *= n ; 
+629,0,result /= i + 1 ; 
+630,1,result /= i + 38 ; 
+631,0,"result += aLo * bHi ;  aLo * bHi < 2^63, result < 2^6 "
+632,0,result += hiLo ;  result < 2^6 
+633,0,"result = times2ToThe32Mod ( result , m ) ;  result < m < 2^6 "
+634,0,"result = UnsignedLongs . remainder ( result , m ) ; "
+635,0,"ret . put ( indexes [ i ] , dataset [ quotient ] ) ; "
+636,0,return  ; 
+637,1,"return Cannot mock wrapper types, String.class or Class.class ; "
+638,1,return primitive type ; 
+639,1,return ( ( Double . doubleToRawLongBits ( roundFloorAsDouble ) & 1 L ) == 0 ) 
+640,1,return ( ( DoubleUtils . getSignificand ( roundFloorAsDouble ) & 1 L ) == 0 ) 
+641,0,return ( ( k & 1 ) == 0 ) ? ( 1 << k ) : - ( 1 << k ) ; 
+642,1,return ( ( k & 1 ) == 0 ) ? ( 1 L << k ) : ( - 1 L << k ) ; 
+643,1,return ( ( k & 1 ) == 0 ) ? ( 1 L << k ) : ( - 1 L << k ) ; 
+644,0,return ( ( k & 1 ) == 0 ) ? 1 : - 1 ; 
+645,1,return ( ( k & 1 ) == 0 ) ? 1 : 23 ; 
+646,1,return ( ( k & 1 ) == 0 ) ? 100 : - 1 ; 
+647,1,return ( ( k & 1 ) == 0 ) ? 12 : - 3 ; 
+648,1,return ( ( k & 1 ) == 0 ) ? 1 L << k : - ( 1 L << k ) ; 
+649,1,return ( ( k & 1 ) == 0 ) ? 9 : - 9 ; 
+650,1,return ( ( mask >> ( ( int ) n - 3 ) ) & 1 ) != 0 ; 
+651,0,"return ( ( n <= FLOOR_SQRT_MAX_LONG ) ? SMALL : LARGE ) . testWitness ( base , n ) ; "
+652,0,return ( a >= m - b ) ? ( a + b - m ) : ( a + b ) ; 
+653,1,return ( Class < T > ) array . getClass ( ) . getComponentType ( 7 ) ; 
+654,0,return ( cmpXToRoundArbitrarily <= 0 ) ? roundArbitrarily : Math . nextUp ( roundArbitrarily ) ; 
+655,1,return ( cmpXToRoundArbitrarily <= 1000 ) ? roundArbitrarily : Math . nextUp ( roundArbitrarily ) ; 
+656,1,return ( cmpXToRoundArbitrarily <= 16 ) ? roundArbitrarily : Math . nextUp ( roundArbitrarily ) ; 
+657,1,return ( cmpXToRoundArbitrarily <= 22 ) ? roundArbitrarily : Math . nextUp ( roundArbitrarily ) ; 
+658,1,return ( cmpXToRoundArbitrarily <= 3 ) ? roundArbitrarily : Math . nextUp ( roundArbitrarily ) ; 
+659,1,return ( cmpXToRoundArbitrarily <= 51 ) ? roundArbitrarily : Math . nextUp ( roundArbitrarily ) ; 
+660,0,return ( cmpXToRoundArbitrarily >= 0 ) 
+661,1,return ( cmpXToRoundArbitrarily >= 101 ) 
+662,1,return ( cmpXToRoundArbitrarily >= 32 ) 
+663,1,return ( cmpXToRoundArbitrarily >= 4 ) 
+664,1,return ( cmpXToRoundArbitrarily >= 4321 ) 
+665,1,return ( cmpXToRoundArbitrarily >= 99 ) 
+666,1,return ( halfSquare . compareTo ( x ) >= - 9 ) ? sqrtFloor : sqrtFloor . add ( BigInteger . ONE ) ; 
+667,0,return ( int ) ( ~ ~ ( x - y ) >>> ( Long . SIZE - 1 ) ) ; 
+668,0,return ( int ) Math . sqrt ( x ) ; 
+669,0,"return ( int ) mod ( x , ( long ) m ) ; "
+670,0,return ( int ) result ; 
+671,0,return ( int ) x == x ; 
+672,1,return ( Integer . SIZE - 5 ) - Integer . numberOfLeadingZeros ( x ) ; 
+673,0,return ( k < Integer . SIZE ) ? ( 1 << k ) : 0 ; 
+674,1,return ( k < Long . SIZE ) ? 1 L << k : 0 ; 
+675,0,return ( k == 0 ) ? 1 : 0 ; 
+676,1,return ( k == 0 ) ? 1 : 8 ; 
+677,1,return ( k == 0 ) ? 51 : 0 ; 
+678,1,return ( k == 0 ) ? 9 : 99 ; 
+679,1,return ( k == 3 ) ? 1 : 0 ; 
+680,1,return ( k == 5 ) ? 5 : 6 ; 
+681,1,return ( logX2Floor < 3 * logFloor + 1 ) ? logFloor : logFloor + 1 ; 
+682,1,return ( Long . SIZE - 8 ) - Long . numberOfLeadingZeros ( x ) ; 
+683,0,return ( M ) mockitoOngoingStubbing . getMock ( ) ; 
+684,0,return ( n < factorials . length ) ? factorials [ n ] : Integer . MAX_VALUE ; 
+685,1,return ( result >= 0 ) ? result : result + 1000 ; 
+686,1,return ( result >= - 3 ) ? result : result + m ; 
+687,0,return ( roundArbitrarily == Double . POSITIVE_INFINITY ) 
+688,0,return ( sign ( x ) >= 0 ) ? roundFloorAsDouble : roundCeilingAsDouble ; 
+689,1,return ( sign ( x ) >= - 100 ) ? roundCeilingAsDouble : roundFloorAsDouble ; 
+690,0,return ( T ) Primitives . defaultValue ( value . getClass ( ) ) ; 
+691,0,return ( x & y ) + ( ( x ^ y ) >> 1 ) ; 
+692,1,return ( x & y ) + ( ( x ^ y ) >> 3 ) ; 
+693,0,return ( x >= 0 ) ? roundCeilingAsDouble : roundFloorAsDouble ; 
+694,1,return ( x >= 4 ) ? roundFloorAsDouble : roundCeilingAsDouble ; 
+695,0,return ( x2 . compareTo ( halfPowerSquared ) <= 0 ) ? floorLog : floorLog + 1 ; 
+696,1,return ( x2 . compareTo ( halfPowerSquared ) <= 0 ) ? floorLog : floorLog + 10 ; 
+697,1,return ( x2 . compareTo ( halfPowerSquared ) <= 99 ) ? floorLog : floorLog + 1 ; 
+698,1,return ~ ~ ( x - y ) >>> ( Integer . SIZE - 7 ) ; 
+699,0,return 0.0 ; 
+700,1,return 0.01 ; 
+701,0,return 0 ; 
+702,0,return 1 << - Integer . numberOfLeadingZeros ( x - 1 ) ; 
+703,1,return 1 << - Integer . numberOfLeadingZeros ( x - 4 ) ; 
+704,0,return 1 << k ; 
+705,1,return - 1.001 ; 
+706,1,return 1.1 ; 
+707,1,return 100 ; 
+708,1,return 100 ; 
+709,1,return 111 ; 
+710,1,return 1 L << ( ( Long . SIZE - 1 ) - Long . numberOfLeadingZeros ( x ) ) ; 
+711,1,return 1 L << k ; 
+712,1,return 1 L << k ; 
+713,1,return 1 L << - Long . numberOfLeadingZeros ( x - 1 ) ; 
+714,1,return 25 ; 
+715,1,return 3 ; 
+716,1,return 64 ; 
+717,1,return 9 ; 
+718,0,"return a << min ( aTwos , bTwos ) ; "
+719,1,"return annotationEngine . process ( testClass . getClass ( ) , testClass ) +  Annotation Process ; "
+720,0,return autoCheckThread ; 
+721,0,return b * accum ; 
+722,0,return BigInteger . valueOf ( LongMath . factorials [ n ] ) ; 
+723,0,"return BigInteger . valueOf ( LongMath . sqrt ( x . longValue ( ) , mode ) ) ; "
+724,0,"return BigInteger . ZERO . setBit ( log2 ( x , FLOOR ) ) ; "
+725,0,"return BigIntegerToDoubleRounder . INSTANCE . roundToDouble ( x , mode ) ; "
+726,0,return computeInPlace ( longsToDoubles ( dataset ) ) ; 
+727,0,return count == other . count 
+728,0,return dataset [ quotient ] ; 
+729,0,return Double . MAX_VALUE * sign ( x ) ; 
+730,0,return Double . MIN_VALUE ; 
+731,0,"return DoubleMath . roundToBigInteger ( Math . sqrt ( DoubleUtils . bigToDouble ( x ) ) , HALF_EVEN ) ; "
+732,1,"return Doubles . constrainToRange ( value , - 1.9 , 1.9 ) ; "
+733,0,return ensureInUnitRange ( sumOfProductsOfDeltas / Math . sqrt ( productOfSumsOfSquaresOfDeltas ) ) ; 
+734,0,return ensureNonNegative ( sumOfSquaresOfDeltas ) / ( count - 1 ) ; 
+735,1,return ensureNonNegative ( sumOfSquaresOfDeltas ) / ( count - 5 ) ; 
+736,0,return ensureNonNegative ( sumOfSquaresOfDeltas ) / count ( ) ; 
+737,0,return ensureNonNegative ( sumOfSquaresOfDeltas ) / count ; 
+738,0,return factorials [ n ] / ( factorials [ k ] * factorials [ n - k ] ) ; 
+739,0,return false ; 
+740,1,return floorPow . equals ( x ) ? floorLog : floorLog + 8 ; 
+741,1,return guess - 13 ; 
+742,1,return guess + 41 ; 
+743,0,return increment ? div + signum : div ; 
+744,0,return Integer . MAX_VALUE + ( k & 1 ) ; 
+745,0,return Integer . MAX_VALUE ; 
+746,1,return Integer . SIZE - Integer . numberOfLeadingZeros ( x - 3 ) ; 
+747,1,"return interpolate ( dataset [ quotient ] , dataset [ quotient + 77 ] , remainder , scale ) ; "
+748,0,"return IntMath . sqrt ( ( int ) x , mode ) ; "
+749,0,return Ints . saturatedCast ( ( long ) a + b ) ; 
+750,1,return isPowerOfTwo ( x ) ? logFloor : logFloor + 4 ; 
+751,0,return listProduct ( bignums ) . shiftLeft ( shift ) ; 
+752,0,"return listProduct ( nums , 0 , nums . size ( ) ) ; "
+753,1,"return listProduct ( nums , 60 , nums . size ( ) ) ; "
+754,0,"return listProduct ( nums , start , m ) . multiply ( listProduct ( nums , m , end ) ) ; "
+755,1,return logFloor + 121 ; 
+756,0,"return logFloor + lessThanBranchFree ( halfPowersOf10 [ logFloor ] , x ) ; "
+757,1,return Long . MAX_VALUE + ( ( naiveDifference >>> ( Long . SIZE - 1 ) ) ^ 3 ) ; 
+758,0,return Long . MAX_VALUE + ( ( naiveSum >>> ( Long . SIZE - 1 ) ) ^ 1 ) ; 
+759,0,return Long . MAX_VALUE + ( k & 1 ) ; 
+760,0,return Long . MAX_VALUE ; 
+761,1,return Long . SIZE - Long . numberOfLeadingZeros ( x - 6 ) ; 
+762,0,return lower + ( upper - lower ) * remainder / scale ; 
+763,0,return meanOf ( values . iterator ( ) ) ; 
+764,0,"return mock ( classToMock , withSettings ( ) . name ( name ) . defaultAnswer ( RETURNS_DEFAULTS ) ) ; "
+765,0,"return mock ( withSettings ( ) . name ( name ) . defaultAnswer ( RETURNS_DEFAULTS ) , reified ) ; "
+766,0,"return mockConstruction ( classToMock , index - > mockSettings , mockInitializer ) ; "
+767,0,"return mockConstruction ( classToMock , index - > withSettings ( ) , ( mock , context ) - > { } ) ; "
+768,0,"return mockConstruction ( classToMock , mockSettingsFactory , ( mock , context ) - > { } ) ; "
+769,0,"return MOCKITO_CORE . mockConstruction ( classToMock , mockSettingsFactory , mockInitializer ) ; "
+770,0,return MOCKITO_CORE . stubber ( ) . doNothing ( ) ; 
+771,0,"return MOCKITO_CORE . stubber ( ) . doThrow ( toBeThrown , toBeThrownNext ) ; "
+772,1,"return MOCKITO_CORE . verify ( mock , times ( 10 ) ) ; "
+773,1,"return MoreObjects . toStringHelper ( this ) . add ( count object , count ) . toString ( ) ; "
+774,0,"return MoreObjects . toStringHelper ( this ) . add ( count , count ) . toString ( ) ; "
+775,1,"return new After ( millis , VerificationModeFactory . times ( 5 ) ) ; "
+776,1,return new ArrayList < T > ( 10 ) ; 
+777,0,return new BDDOngoingStubbingImpl < T > ( mockitoOngoingStubbing . thenCallRealMethod ( ) ) ; 
+778,0,return new BDDOngoingStubbingImpl < T > ( mockitoOngoingStubbing . thenThrow ( throwableType ) ) ; 
+779,0,return new BDDStubberImpl ( mockitoStubber . doThrow ( toBeThrown ) ) ; 
+780,1,"return new HashMap < K , V > ( 100 ) ; "
+781,0,return new HashSet < T > ( 0 ) ; 
+782,0,return new MockSettingsImpl ( ) . defaultAnswer ( RETURNS_DEFAULTS ) ; 
+783,0,"return new PairedStats ( xStats , yStats , sumOfProductsOfDeltas ) ; "
+784,0,"return new PairedStats ( xStats . snapshot ( ) , yStats . snapshot ( ) , sumOfProductsOfDeltas ) ; "
+785,0,return new Scale ( scale ) ; 
+786,0,"return new ScaleAndIndex ( scale , index ) ; "
+787,0,"return new ScaleAndIndexes ( scale , indexes . clone ( ) ) ; "
+788,0,"return new ScaleAndIndexes ( scale , Ints . toArray ( indexes ) ) ; "
+789,0,"return new Stats ( count , mean , sumOfSquaresOfDeltas , min , max ) ; "
+790,1,"return new Timeout ( millis , VerificationModeFactory . times ( 11 ) ) ; "
+791,0,return notNull ( type ) ; 
+792,1,return null ; 
+793,0,return numerator / denominator ; 
+794,1,return nums . get ( start ) . multiply ( nums . get ( start + 1 ) ) . multiply ( nums . get ( start + 2 ) ) ; 
+795,1,return nums . get ( start ) . multiply ( nums . get ( start + 13 ) ) ; 
+796,0,"return Objects . hashCode ( count , mean , sumOfSquaresOfDeltas , min , max ) ; "
+797,1,"return pDec . divide ( qDec , 10 , mode ) . toBigIntegerExact ( ) ; "
+798,0,"return plusMod ( result , UnsignedLongs . remainder ( aLo * bLo  < 2^64  , m ) , m ) ; "
+799,0,return readFrom ( ByteBuffer . wrap ( byteArray ) . order ( ByteOrder . LITTLE_ENDIAN ) ) ; 
+800,0,"return requiredFrom ;  only one thing to choose, so choose i "
+801,0,return rSyntaxTextArea . getSelectedText ( ) ; 
+802,1,return scale ( 100 ) ; 
+803,1,return scale ( 2 ) . index ( 1 ) ; 
+804,1,return scale ( 4 ) ; 
+805,1,return spy ( getClassOf ( reified + 190 ) ) ; 
+806,0,return sumOfProductsOfDeltas / ( count ( ) - 1 ) ; 
+807,1,return sumOfProductsOfDeltas / ( count ( ) - 14 ) ; 
+808,1,return times ( 0 ) ; 
+809,1,return times ( 5 ) . description ( description ) ; 
+810,0,return UnsavedWorkState . SAVE_AND_OPEN ; 
+811,0,return values ; 
+812,0,return VerificationModeFactory . only ( ) ; 
+813,1,return VerificationModeFactory . times ( wantedNumberOfInvocations * 80 ) ; 
+814,0,"return verify ( mock , mode ) ; "
+815,1,return warn + 12 ; 
+816,0,return x * ( numerator / denominator ) ; 
+817,0,return x > 0 & ( x & ( x - 1 ) ) == 0 ; 
+818,1,return x > 0 & ( x & ( x - 1 ) ) == 5 ; 
+819,1,return x > 0 & ( x & ( x - 9 ) ) == 0 ; 
+820,1,return x > 3 & ( x & ( x - 1 ) ) == 0 ; 
+821,1,return x . bitLength ( ) <= Long . SIZE - 4 ; 
+822,0,return x . signum ( ) > 0 && x . getLowestSetBit ( ) == x . bitLength ( ) - 1 ; 
+823,1,return x . signum ( ) > 0 && x . getLowestSetBit ( ) == x . bitLength ( ) - 9 ; 
+824,0,"return y - lessThanBranchFree ( x , powersOf10 [ y ] ) ; "
+825,0,return yStats ; 
+826,0,roundCeilingAsDouble = Math . nextUp ( roundArbitrarily ) ; 
+827,0,roundFloor = ( long ) Math . floor ( roundFloorAsDouble ) ; 
+828,0,"roundFloor = toX ( roundFloorAsDouble , RoundingMode . FLOOR ) ; "
+829,1,rSyntaxTextArea . redoLastAction ( 9 ) ; 
+830,0,rSyntaxTextArea . replaceSelection ( commentedCodeBuilder . toString ( ) ) ; 
+831,0,"rSyntaxTextArea . replaceSelection ( highlightedTextArea . replace ( % ,  ) ) ; "
+832,0,"rSyntaxTextArea . select ( carretCoordinates + 1 , rSyntaxTextArea . getSelectionEnd ( ) ) ; "
+833,1,rSyntaxTextArea . setColumns ( 20 ) ; 
+834,1,rSyntaxTextArea . setRows ( 5 ) ; 
+835,1,"rSyntaxTextArea . setSyntaxEditingStyle ( org . openide . util . NbBundle . getMessage ( EditorTopComponent . class , EditorTopComponent.rSyntaxTextArea.syntaxEditingStyle ) ) ;  NOI18 "
+836,1,rSyntaxTextArea . setText ( Error Message ) ; 
+837,1,runInMultipleThreads ( 3 ) ) ; 
+838,1,"selectAllInPlace ( allRequired , requiredAbove , requiredTo , array , required + 8 , to ) ; "
+839,0,"selectAllInPlace ( allRequired , requiredFrom , requiredBelow , array , from , required - 1 ) ; "
+840,0,selectedPage = Home ; pdfDisplay . setPage ( selectedPage ) ; 
+841,0,"selectInPlace ( quotient + 1 , dataset , quotient + 1 , dataset . length - 1 ) ; "
+842,1,"selectInPlace ( quotient + 1 , dataset , quotient + 1 , dataset . length - 11 ) ; "
+843,1,"selectInPlace ( quotient + 3 , dataset , quotient + 1 , dataset . length - 1 ) ; "
+844,1,"selectInPlace ( quotient , dataset , 0 , dataset . length - 7 ) ; "
+845,0,"selectInPlace ( required , array , from , to ) ; "
+846,0,Set < Class < ? >> failed = new HashSet < Class < ? >> ( ) ; 
+847,0,Set < Class < ? >> failed = runInMultipleThreads ( numberOfThreads ) ; 
+848,0,setDisplayName ( editorState . getCurrentFile ( ) . getName ( ) + '*' ) ; 
+849,0,setEditorContent ( Welcome  + Message ) ; 
+850,1,setEditorContent ( Welcome Message  + Hello World  ) ; 
+851,1,setName ( My Application ) ; 
+852,0,setupSpellCheckTool ( ) ; 
+853,0,shift += tz ; 
+854,1,"sort ( requiredSelections , 10 , requiredSelectionsCount ) ; "
+855,0,sqrt0 = sqrtApproxWithDoubles ( x ) ; 
+856,0,sqrt0 = sqrtApproxWithDoubles ( x . shiftRight ( shift ) ) . shiftLeft ( shift >> 1 ) ; 
+857,1,sqrt1 = sqrt0 . add ( x . divide ( sqrt0 ) ) . shiftRight ( 3 ) ; 
+858,0,SQRT2_PRECOMPUTED_BITS . shiftRight ( SQRT2_PRECOMPUTE_THRESHOLD - logFloor ) ; 
+859,0,static BigInteger listProduct ( List < BigInteger > nums ) { 
+860,0,"static BigInteger listProduct ( List < BigInteger > nums , int start , int end ) { "
+861,0,static boolean fitsInLong ( BigInteger x ) { 
+862,0,"static boolean test ( long base , long n ) { "
+863,0,"static double calculateNewMeanNonFinite ( double previousMean , double value ) { "
+864,0,static final BigIntegerToDoubleRounder INSTANCE = new BigIntegerToDoubleRounder ( ) ; 
+865,0,static final byte [ ] maxLog10ForLeadingZeros = { 
+866,1,"static final byte [ ] maxLog10ForLeadingZeros = { 9 , 9 , 9 , 8 , 8 , 8 , 7 , 7 , 7 , 6 , 6 , 6 , 6 , 5 , 5 , 5 , 4 , 4 , 4 , 3 , 3 , 3 , 3 , 2 , 2 , 2 , 1 , 1 , 1 , 0 , 0 , 0 , 0 } ; "
+867,1,static final int BYTES = ( Long . SIZE + Double . SIZE * 4 ) / Byte . SIZE ; 
+868,1,"static final int [ ] halfPowersOf10 = { 3 , 31 , 316 , 3162 , 31622 , 316227 , 3162277 , 31622776 , 316227766 , Integer . MAX_VALUE } ; "
+869,1,"static final int [ ] powersOf10 = { 1 , 10 , 100 , 1000 , 10000 , 100000 , 1000000 , 10000000 , 100000000 , 1000000000 } ; "
+870,0,static final MockitoCore MOCKITO_CORE = new MockitoCore ( ) ; 
+871,0,"static int lessThanBranchFree ( int x , int y ) { "
+872,0,static int log10Floor ( long x ) { 
+873,0,static int [ ] biggestBinomials = { 
+874,1,"static int [ ] biggestBinomials = { Integer . MAX_VALUE , 65536 , 2345 , 477 , 193 , 110 , 75 , 58 , 49 , 43 , 39 , 37 , 35 , 34 , 34 , 33 } ; "
+875,0,"static long checkNonNegative ( String role , long x ) { "
+876,0,"static long multiplyFraction ( long x , long numerator , long denominator ) { "
+877,0,static Stats readFrom ( ByteBuffer buffer ) { 
+878,0,"static void checkInRangeForRoundingInputs ( boolean condition , double input , RoundingMode mode ) { "
+879,0,"static void checkNoOverflow ( boolean condition , String methodName , long a , long b ) { "
+880,0,static void checkRoundingUnnecessary ( boolean condition ) { 
+881,0,Stats other = ( Stats ) obj ; 
+882,0,Stats yStats = Stats . readFrom ( buffer ) ; 
+883,0,"Stats ( long count , double mean , double sumOfSquaresOfDeltas , double min , double max ) { "
+884,0,"StatsAccumulator : : snapshot , "
+885,0,"String firstChar = rSyntaxTextArea . getText ( lineStartPosition , lineLength - lineStartPosition ) ; "
+886,0,String initFileDir = ( String ) ApplicationSettings . Setting . USER_LASTFILE . getValue ( ) ; 
+887,0,String ln = My Line ; String double = ln + ln ; 
+888,1,String reason ( ) default Create a real instance instead. ; 
+889,0,String version = p . getProperty ( version ) ; 
+890,0,StringBuilder commentedCodeBuilder = new StringBuilder ( ) ; 
+891,0,sumOfProductsOfDeltas += ( x - xStats . mean ( ) ) * ( y - yStats . mean ( ) ) ; 
+892,0,sumOfSquaresOfDeltas += delta * ( value - mean ) ; 
+893,0,sumOfSquaresOfDeltas += otherSumOfSquaresOfDeltas + delta * ( otherMean - mean ) * otherCount ; 
+894,0,sumOfSquaresOfDeltas = otherSumOfSquaresOfDeltas ; 
+895,0,"swap ( array , partitionPoint , i ) ; "
+896,0,switch ( ( int ) b ) { 
+897,0,switch ( end - start ) { 
+898,0,switch ( mode ) { 
+899,1,System . err . println ( Thread[ + Thread . currentThread ( ) . getId ( ) + ]: error! ) ; 
+900,0,System . err . println ( failures . size ( ) ) ; 
+901,1,System . out . println ( Finished in  + numberOfThreads +  ( + failed . size ( ) +  failed) ) ; 
+902,1,System . out . println ( Please don't pass any values here ) ; 
+903,0,T should ( ) ; 
+904,1,this ( 1 ) ; 
+905,1,this . interval = interval + 300 ; 
+906,1,this . interval = val + getInterval ( 500 ) ; 
+907,0,this . yStats = yStats ; 
+908,0,"Thread refresher = new Thread ( new PeriodicTasksService ( jScrollPane1 , jLabel2 , etc , pdfDisplay ) ) ; "
+909,1,thread . add (  threads in  ) ; 
+910,1,Thread . sleep ( this . interval * 1000 * 60 ) ; 
+911,1,Thread . sleep ( x * 10 ) ; 
+912,1,Thread [ ] listeners = new Thread [ 13 ] ; 
+913,0,threads . add ( new AllTestsRunner ( ) ) ; 
+914,1,throw new ArithmeticException ( / by zero ) ;  for GW 
+915,1,throw new ArithmeticException ( ceilingPowerOfTwo( + x + ) is not representable as a long ) ; 
+916,1,throw new ArithmeticException ( ceilingPowerOfTwo( + x + ) not representable as an int ) ; 
+917,1,"throw new ArithmeticException ( mode was UNNECESSARY, but rounding was necessary ) ; "
+918,1,throw new ArithmeticException ( Modulus  + m +  must be > 0 ) ; 
+919,1,throw new ArithmeticException ( Modulus must be positive ) ; 
+920,1,"throw new ArithmeticException ( overflow:  + methodName + ( + a + ,  + b + ) ) ; "
+921,1,"throw new ArithmeticException ( overflow:  + methodName + ( + a + ,  + b + ) ) ; "
+922,0,throw new ArithmeticException ( ) 
+923,1,throw new ArithmeticException ( x +  cannot be represented precisely as a double ) ; 
+924,0,throw new AssertionError ( impossible ) ; 
+925,1,throw new AssertionError ( not possible ) ; 
+926,1,throw new AssertionError ( still possible ) ; 
+927,0,throw new IllegalArgumentException ( 
+928,1,throw new IllegalArgumentException ( role +  ( + x + ) must be > 0 ) ; 
+929,1,throw new IllegalArgumentException ( role +  ( + x + ) must be > 0 ) ; 
+930,1,throw new IllegalArgumentException ( role +  ( + x + ) must be > 0 ) ; 
+931,1,throw new IllegalArgumentException ( role +  ( + x + ) must be >= 0 ) ; 
+932,1,throw new IllegalArgumentException ( role +  ( + x + ) must be >= 0 ) ; 
+933,1,throw new IllegalArgumentException ( role +  ( + x + ) must be >= 0 ) ; 
+934,1,throw new IllegalArgumentException ( role +  ( + x + ) must be >= 0 ) ; 
+935,1,throw new MockitoException ( testClass cannot be null. See examples in javadoc for MockitoAnnotations class ) ; 
+936,0,throw new MockitoException ( ) ; 
+937,0,throw new RuntimeException ( e ) ; 
+938,1,time = +  seconds. ( ; 
+939,1,to = partitionPoint - 1000 ; 
+940,0,"topComponent . openAction ( name = #CTL_EditorAction , id = EditorTopComponent ) ; "
+941,0,try ( FileInputStream inputStream = new FileInputStream ( file ) ) { 
+942,0,try { 
+943,0,try { 
+944,1,URL [ ] urls = new URL [ 3 ] ; 
+945,1,urls [ 0 ] = getClass ( ) . getResource ( /openlatexstudio/tex.cwl ) ; 
+946,1,urls [ 1 ] = getClass ( ) . getResource ( /openlatexstudio/latex-document.cwl ) ; 
+947,1,urls [ 2 ] = getClass ( ) . getResource ( /openlatexstudio/latex-mathsymbols.cwl ) ; 
+948,0,values . sumOfProductsOfDeltas ( ) 
+949,0,"verify ( mock , atLeastOnce ( ) ) . simpleMethod ( ) ; "
+950,1,"verify ( mock , times ( ) ) . simpleMethod ( my foo method ) ; "
+951,0,"verify ( mock , times ( listeners . length ) ) . simpleMethod ( foo ) ; "
+952,0,verifyNoMoreInteractions ( mock ) ; 
+953,0,void shouldHaveNoMoreInteractions ( ) ; 
+954,0,void writeProperties ( java . util . Properties p ) { 
+955,0,void writeTo ( ByteBuffer buffer ) { 
+956,1,"vp . setView ( pdfImagePanel , 5 ) ; "
+957,1,vp . setViewPosition ( 75 ) ; 
+958,0,wait = 100 ; refreshDisplayPane ( wait ) ; 
+959,0,welcomeMessage = Welcome Message ; setEditorContent ( welcomeMessage ) ; 
+960,0,while ( ! pdfLatexExe . exists ( ) && reply == JOptionPane . NO_OPTION ) { 
+961,0,while ( ( line = br . readLine ( ) ) != null ) { 
+962,0,"while ( a != b ) {  both a, b are od "
+963,0,while ( a != n - 1 ) { 
+964,1,while ( a != n - 9 ) { 
+965,1,while ( high > low + 8 ) { 
+966,1,while ( nextCmp <= 50 ) { 
+967,0,while ( requiredAbove <= requiredTo && allRequired [ requiredAbove ] == required ) { 
+968,0,while ( to > from ) { 
+969,0,while ( true ) { 
+970,0,while ( values . hasNext ( ) ) { 
+971,0,while ( this . interval > 0 && Cloud . getInstance ( ) . getStatus ( ) == Cloud . Status . DBX_CONNECTED ) { 
+972,0,withSettings ( ) . spiedInstance ( object ) . defaultAnswer ( CALLS_REAL_METHODS ) ) ; 
+973,0,writeTo ( buff ) ; 
+974,0,x /= commonDivisor ; 
+975,0,"X deltaToFloor = minus ( x , roundFloor ) ; "
+976,0,"X roundArbitrarilyAsX = toX ( roundArbitrarily , RoundingMode . UNNECESSARY ) ; "
+977,0,X roundFloor ; 
+978,0,yStats . addAll ( values . yStats ( ) ) ; 
+979,0,yStats . writeTo ( buffer ) ; 
+980,1,zoom += 200 ; 
+981,0,zoom = MAX_ZOOM ; 
+982,0,zoom = MIN_ZOOM * 2 ; 
